@@ -43,6 +43,10 @@ namespace WindmillHelix.Companion99.App
                 _eventService.Raise<EverQuestFolderConfiguredEvent>(new EverQuestFolderConfiguredEvent());
                 this.Close();
             }
+            else
+            {
+                MessageBox.Show("Invalid EverQuest Directory");
+            }
         }
 
         private void FolderBrowseButton_Click(object sender, RoutedEventArgs e)
