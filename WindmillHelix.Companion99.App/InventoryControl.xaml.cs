@@ -112,7 +112,15 @@ namespace WindmillHelix.Companion99.App
                 return;
             }
 
-            filtered = filtered.Where(x => x.ItemName.Contains(searchText, StringComparison.InvariantCultureIgnoreCase)).ToList();
+            int itemId = -1;
+            if (int.TryParse(searchText, out itemId))
+            {
+                filtered = filtered.Where(x => x.ItemId == itemId).ToList();
+            }
+            else
+            {
+                filtered = filtered.Where(x => x.ItemName.Contains(searchText, StringComparison.InvariantCultureIgnoreCase)).ToList();
+            }
 
             ItemsListView.ItemsSource = filtered;
         }
