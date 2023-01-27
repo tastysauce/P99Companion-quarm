@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Spells>
+	<Spell Name="Burst of Flame" Class="Druid" Level="1" />
+	<Spell Name="Dance of the Fireflies" Class="Druid" Level="1" />
+	<Spell Name="Endure Fire" Class="Druid" Level="1" />
+	<Spell Name="Flame Lick" Class="Druid" Level="1" />
+	<Spell Name="Lull Animal" Class="Druid" Level="1" />
+	<Spell Name="Minor Healing" Class="Druid" Level="1" />
+	<Spell Name="Panic Animal" Class="Druid" Level="1" />
+	<Spell Name="Sense Animals" Class="Druid" Level="1" />
+	<Spell Name="Skin Like Wood" Class="Druid" Level="1" />
+	<Spell Name="Snare" Class="Druid" Level="1" />
+	<Spell Name="Burst of Fire" Class="Druid" Level="5" />
+	<Spell Name="Camouflage" Class="Druid" Level="5" />
+	<Spell Name="Cure Disease" Class="Druid" Level="5" />
+	<Spell Name="Cure Poison" Class="Druid" Level="5" />
+	<Spell Name="Gate" Class="Druid" Level="5" />
+	<Spell Name="Grasping Roots" Class="Druid" Level="5" />
+	<Spell Name="Harmony" Class="Druid" Level="5" />
+	<Spell Name="Invoke Lightning" Class="Druid" Level="5" />
+	<Spell Name="Ward Summoned" Class="Druid" Level="5" />
+	<Spell Name="Whirling Wind" Class="Druid" Level="5" />
+	<Spell Name="Endure Cold" Class="Druid" Level="9" />
+	<Spell Name="Enduring Breath" Class="Druid" Level="9" />
+	<Spell Name="Firefist" Class="Druid" Level="9" />
+	<Spell Name="Ignite" Class="Druid" Level="9" />
+	<Spell Name="Invisibility versus Animals" Class="Druid" Level="9" />
+	<Spell Name="Light Healing" Class="Druid" Level="9" />
+	<Spell Name="Shield of Thistles" Class="Druid" Level="9" />
+	<Spell Name="Starshine" Class="Druid" Level="9" />
+	<Spell Name="Strength of Earth" Class="Druid" Level="9" />
+	<Spell Name="Thistlecoat" Class="Druid" Level="9" />
+	<Spell Name="Treeform" Class="Druid" Level="9" />
+	<Spell Name="Befriend Animal" Class="Druid" Level="14" />
+	<Spell Name="Bind Affinity" Class="Druid" Level="14" />
+	<Spell Name="Cascade of Hail" Class="Druid" Level="14" />
+	<Spell Name="Expulse Summoned" Class="Druid" Level="14" />
+	<Spell Name="Halo of Light" Class="Druid" Level="14" />
+	<Spell Name="Invigor" Class="Druid" Level="14" />
+	<Spell Name="Levitate" Class="Druid" Level="14" />
+	<Spell Name="See Invisible" Class="Druid" Level="14" />
+	<Spell Name="Skin Like Rock" Class="Druid" Level="14" />
+	<Spell Name="Spirit of Wolf" Class="Druid" Level="14" />
+	<Spell Name="Stinging Swarm" Class="Druid" Level="14" />
+	<Spell Name="Summon Drink" Class="Druid" Level="14" />
+	<Spell Name="Summon Food" Class="Druid" Level="14" />
+	<Spell Name="Barbcoat" Class="Druid" Level="19" />
+	<Spell Name="Calm Animal" Class="Druid" Level="19" />
+	<Spell Name="Cancel Magic" Class="Druid" Level="19" />
+	<Spell Name="Careless Lightning" Class="Druid" Level="19" />
+	<Spell Name="Dizzying Wind" Class="Druid" Level="19" />
+	<Spell Name="Endure Disease" Class="Druid" Level="19" />
+	<Spell Name="Endure Poison" Class="Druid" Level="19" />
+	<Spell Name="Feral Spirit" Class="Druid" Level="19" />
+	<Spell Name="Healing" Class="Druid" Level="19" />
+	<Spell Name="Ring of Butcher" Class="Druid" Level="19" />
+	<Spell Name="Ring of Commons" Class="Druid" Level="19" />
+	<Spell Name="Ring of Karana" Class="Druid" Level="19" />
+	<Spell Name="Ring of Surefall Glade" Class="Druid" Level="19" />
+	<Spell Name="Ring of Toxxulia" Class="Druid" Level="19" />
+	<Spell Name="Shield of Barbs" Class="Druid" Level="19" />
+	<Spell Name="Superior Camouflage" Class="Druid" Level="19" />
+	<Spell Name="Terrorize Animal" Class="Druid" Level="19" />
+	<Spell Name="Charm Animals" Class="Druid" Level="24" />
+	<Spell Name="Creeping Crud" Class="Druid" Level="24" />
+	<Spell Name="Dismiss Summoned" Class="Druid" Level="24" />
+	<Spell Name="Ensnaring Roots" Class="Druid" Level="24" />
+	<Spell Name="Pogonip" Class="Druid" Level="24" />
+	<Spell Name="Resist Fire" Class="Druid" Level="24" />
+	<Spell Name="Ring of Feerrott" Class="Druid" Level="24" />
+	<Spell Name="Ring of Lavastorm" Class="Druid" Level="24" />
+	<Spell Name="Ring of Ro" Class="Druid" Level="24" />
+	<Spell Name="Ring of Steamfont" Class="Druid" Level="24" />
+	<Spell Name="Ring of the Combines" Class="Druid" Level="24" />
+	<Spell Name="Scale of Wolf" Class="Druid" Level="24" />
+	<Spell Name="Skin Like Steel" Class="Druid" Level="24" />
+	<Spell Name="Spirit of Cheetah" Class="Druid" Level="24" />
+	<Spell Name="Sunbeam" Class="Druid" Level="24" />
+	<Spell Name="Tremor" Class="Druid" Level="24" />
+	<Spell Name="Wolf Form" Class="Druid" Level="24" />
+	<Spell Name="Beguile Plants" Class="Druid" Level="29" />
+	<Spell Name="Bramblecoat" Class="Druid" Level="29" />
+	<Spell Name="Circle of Butcher" Class="Druid" Level="29" />
+	<Spell Name="Circle of Commons" Class="Druid" Level="29" />
+	<Spell Name="Circle of Karana" Class="Druid" Level="29" />
+	<Spell Name="Circle of Surefall Glade" Class="Druid" Level="29" />
+	<Spell Name="Circle of Toxxulia" Class="Druid" Level="29" />
+	<Spell Name="Combust" Class="Druid" Level="29" />
+	<Spell Name="Counteract Disease" Class="Druid" Level="29" />
+	<Spell Name="Counteract Poison" Class="Druid" Level="29" />
+	<Spell Name="Ensnare" Class="Druid" Level="29" />
+	<Spell Name="Extinguish Fatigue" Class="Druid" Level="29" />
+	<Spell Name="Greater Healing" Class="Druid" Level="29" />
+	<Spell Name="Imbue Emerald" Class="Druid" Level="29" />
+	<Spell Name="Imbue Plains Pebble" Class="Druid" Level="29" />
+	<Spell Name="Immolate" Class="Druid" Level="29" />
+	<Spell Name="Ring of Misty" Class="Druid" Level="29" />
+	<Spell Name="Shield of Brambles" Class="Druid" Level="29" />
+	<Spell Name="Succor: East" Class="Druid" Level="29" />
+	<Spell Name="Beguile Animals" Class="Druid" Level="34" />
+	<Spell Name="Circle of Feerrott" Class="Druid" Level="34" />
+	<Spell Name="Circle of Iceclad" Class="Druid" Level="34" />
+	<Spell Name="Circle of Lavastorm" Class="Druid" Level="34" />
+	<Spell Name="Circle of Ro" Class="Druid" Level="34" />
+	<Spell Name="Circle of Steamfont" Class="Druid" Level="34" />
+	<Spell Name="Circle of the Combines" Class="Druid" Level="34" />
+	<Spell Name="Drones of Doom" Class="Druid" Level="34" />
+	<Spell Name="Earthquake" Class="Druid" Level="34" />
+	<Spell Name="Endure Magic" Class="Druid" Level="34" />
+	<Spell Name="Expel Summoned" Class="Druid" Level="34" />
+	<Spell Name="Fury of Air" Class="Druid" Level="34" />
+	<Spell Name="Greater Wolf Form" Class="Druid" Level="34" />
+	<Spell Name="Lightning Strike" Class="Druid" Level="34" />
+	<Spell Name="Regeneration" Class="Druid" Level="34" />
+	<Spell Name="Resist Cold" Class="Druid" Level="34" />
+	<Spell Name="Ring of Great Divide" Class="Druid" Level="34" />
+	<Spell Name="Ring of Iceclad" Class="Druid" Level="34" />
+	<Spell Name="Strength of Stone" Class="Druid" Level="34" />
+	<Spell Name="Succor: Butcher" Class="Druid" Level="34" />
+	<Spell Name="Avalanche" Class="Druid" Level="39" />
+	<Spell Name="Circle of Great Divide" Class="Druid" Level="39" />
+	<Spell Name="Circle of Misty" Class="Druid" Level="39" />
+	<Spell Name="Enveloping Roots" Class="Druid" Level="39" />
+	<Spell Name="Firestrike" Class="Druid" Level="39" />
+	<Spell Name="Pack Regeneration" Class="Druid" Level="39" />
+	<Spell Name="Pack Spirit" Class="Druid" Level="39" />
+	<Spell Name="Ring of Cobalt Scar" Class="Druid" Level="39" />
+	<Spell Name="Ring of Wakening Lands" Class="Druid" Level="39" />
+	<Spell Name="Ro's Fiery Sundering" Class="Druid" Level="39" />
+	<Spell Name="Share Wolf Form" Class="Druid" Level="39" />
+	<Spell Name="Shield of Spikes" Class="Druid" Level="39" />
+	<Spell Name="Skin Like Diamond" Class="Druid" Level="39" />
+	<Spell Name="Spikecoat" Class="Druid" Level="39" />
+	<Spell Name="Succor: Ro" Class="Druid" Level="39" />
+	<Spell Name="Wind of the North" Class="Druid" Level="39" />
+	<Spell Name="Wind of the South" Class="Druid" Level="39" />
+	<Spell Name="Allure of the Wild" Class="Druid" Level="44" />
+	<Spell Name="Banish Summoned" Class="Druid" Level="44" />
+	<Spell Name="Calefaction" Class="Druid" Level="44" />
+	<Spell Name="Chloroplast" Class="Druid" Level="44" />
+	<Spell Name="Circle of Cobalt Scar" Class="Druid" Level="44" />
+	<Spell Name="Circle of Wakening Lands" Class="Druid" Level="44" />
+	<Spell Name="Drifting Death" Class="Druid" Level="44" />
+	<Spell Name="Fixation of Ro" Class="Druid" Level="44" />
+	<Spell Name="Form of the Great Wolf" Class="Druid" Level="44" />
+	<Spell Name="Nullify Magic" Class="Druid" Level="44" />
+	<Spell Name="Resist Disease" Class="Druid" Level="44" />
+	<Spell Name="Resist Poison" Class="Druid" Level="44" />
+	<Spell Name="Savage Spirit" Class="Druid" Level="44" />
+	<Spell Name="Storm Strength" Class="Druid" Level="44" />
+	<Spell Name="Succor: Lavastorm" Class="Druid" Level="44" />
+	<Spell Name="Engulfing Roots" Class="Druid" Level="49" />
+	<Spell Name="Fire" Class="Druid" Level="49" />
+	<Spell Name="Ice" Class="Druid" Level="49" />
+	<Spell Name="Lightning Blast" Class="Druid" Level="49" />
+	<Spell Name="Pack Chloroplast" Class="Druid" Level="49" />
+	<Spell Name="Resist Magic" Class="Druid" Level="49" />
+	<Spell Name="Shield of Thorns" Class="Druid" Level="49" />
+	<Spell Name="Skin Like Nature" Class="Druid" Level="49" />
+	<Spell Name="Starfire" Class="Druid" Level="49" />
+	<Spell Name="Succor: North" Class="Druid" Level="49" />
+	<Spell Name="Thorncoat" Class="Druid" Level="49" />
+	<Spell Name="Improved Superior Camouflage" Class="Druid" Level="50" />
+	<Spell Name="Circle of Winter" Class="Druid" Level="51" />
+	<Spell Name="Legacy of Spike" Class="Druid" Level="51" />
+	<Spell Name="Repulse Animal" Class="Druid" Level="51" />
+	<Spell Name="Superior Healing" Class="Druid" Level="51" />
+	<Spell Name="Upheaval" Class="Druid" Level="51" />
+	<Spell Name="Breath of Ro" Class="Druid" Level="52" />
+	<Spell Name="Call of Karana" Class="Druid" Level="52" />
+	<Spell Name="Circle of Summer" Class="Druid" Level="52" />
+	<Spell Name="Egress" Class="Druid" Level="52" />
+	<Spell Name="Glamour of Tunare" Class="Druid" Level="53" />
+	<Spell Name="Spirit of Scale" Class="Druid" Level="53" />
+	<Spell Name="Winged Death" Class="Druid" Level="53" />
+	<Spell Name="Blizzard" Class="Druid" Level="54" />
+	<Spell Name="Form of the Howler" Class="Druid" Level="54" />
+	<Spell Name="Regrowth" Class="Druid" Level="54" />
+	<Spell Name="Scoriae" Class="Druid" Level="54" />
+	<Spell Name="Annul Magic" Class="Druid" Level="55" />
+	<Spell Name="Chloroblast" Class="Druid" Level="55" />
+	<Spell Name="Exile Summoned" Class="Druid" Level="55" />
+	<Spell Name="Girdle of Karana" Class="Druid" Level="55" />
+	<Spell Name="Nature Walkers Behest" Class="Druid" Level="55" />
+	<Spell Name="Tunare's Request" Class="Druid" Level="55" />
+	<Spell Name="Bladecoat" Class="Druid" Level="56" />
+	<Spell Name="Breath of Karana" Class="Druid" Level="56" />
+	<Spell Name="Engorging Roots" Class="Druid" Level="56" />
+	<Spell Name="Wake of Karana" Class="Druid" Level="56" />
+	<Spell Name="Bonds of Tunare" Class="Druid" Level="57" />
+	<Spell Name="Frost" Class="Druid" Level="57" />
+	<Spell Name="Natureskin" Class="Druid" Level="57" />
+	<Spell Name="Succor" Class="Druid" Level="57" />
+	<Spell Name="Fist of Karana" Class="Druid" Level="58" />
+	<Spell Name="Regrowth of the Grove" Class="Druid" Level="58" />
+	<Spell Name="Shield of Blades" Class="Druid" Level="58" />
+	<Spell Name="Legacy of Thorn" Class="Druid" Level="59" />
+	<Spell Name="Spirit of Oak" Class="Druid" Level="59" />
+	<Spell Name="Wildfire" Class="Druid" Level="59" />
+	<Spell Name="Banishment" Class="Druid" Level="60" />
+	<Spell Name="Entrapping Roots" Class="Druid" Level="60" />
+	<Spell Name="Form of the Hunter" Class="Druid" Level="60" />
+	<Spell Name="Mask of the Hunter" Class="Druid" Level="60" />
+	<Spell Name="Nature's Touch" Class="Druid" Level="60" />
+	<Spell Name="Protection of the Glades" Class="Druid" Level="60" />
+
+</Spells>

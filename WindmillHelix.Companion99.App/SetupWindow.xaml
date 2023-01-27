@@ -1,0 +1,31 @@
+﻿<Window x:Class="WindmillHelix.Companion99.App.SetupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindmillHelix.Companion99.App"
+        mc:Ignorable="d"
+        Title="P99 Companion - Initial Setup" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Grid Width="550" Height="50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="400"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="EverQuest Directory:"/>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                    <Button Width="20" Height="20" x:Name="FolderBrowseButton" Click="FolderBrowseButton_Click" Content="..." />
+                    <TextBox Height="20" Width="400" x:Name="EverQuestFolderTextBox" IsReadOnly="True" />
+                </StackPanel>
+                    
+                <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Content="OK" Width="100" Height="20px" x:Name="OkButton" Click="OkButton_Click" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+
+</Window>

@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="WindmillHelix.Companion99.App.SpellbookControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindmillHelix.Companion99.App"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="itemstyle" TargetType="{x:Type ListViewItem}">
+            <EventSetter Event="MouseDoubleClick" Handler="HandleDoubleClick" />
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Label Content="Character:"/>
+            <ComboBox x:Name="CharacterComboBox" DisplayMemberPath="Display" SelectedValuePath="Value" Width="140px" />
+            <Label Content="Search:"/>
+            <TextBox x:Name="SearchTextBox" Width="200px" />
+            <Label Content="Show"/>
+            <ComboBox x:Name="HaveStatusComboBox">
+                <ComboBoxItem>All</ComboBoxItem>
+                <ComboBoxItem>Have</ComboBoxItem>
+                <ComboBoxItem>Missing</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <ListView Grid.Row="1" x:Name="ItemsListView" ItemContainerStyle="{StaticResource itemstyle}">
+            <!--<ListView.Background>
+                <ImageBrush ImageSource="/Resources/background_light.bmp"></ImageBrush>
+            </ListView.Background>-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Text}">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="White"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView AllowsColumnReorder="true">
+                    <GridViewColumn Header="Level" Width="60" DisplayMemberBinding="{Binding Path=Level}"/>
+                    <GridViewColumn Header="Spell" Width="200" DisplayMemberBinding="{Binding Path=SpellName}"/>
+                    <GridViewColumn Header="Have?" Width="40" DisplayMemberBinding="{Binding Path=HasSpellDisplay}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</UserControl>
