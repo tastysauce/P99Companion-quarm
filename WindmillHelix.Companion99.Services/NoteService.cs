@@ -95,7 +95,8 @@ namespace WindmillHelix.Companion99.Services
                 serializer.Serialize(fs, _notes.Values.ToArray());
             }
 
-            AsyncHelper.RunSynchronously(() => _eventService.Raise<NotesChangedEvent>());
+            var changeEvent = new NoteUpdateEvent(_notes[key]);
+            AsyncHelper.RunSynchronously(() => _eventService.Raise<NoteUpdateEvent>(changeEvent));
         }
 
         public IReadOnlyCollection<NoteItem> GetAllNotes()

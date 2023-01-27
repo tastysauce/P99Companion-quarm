@@ -12,7 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WindmillHelix.Companion99.Common;
 using WindmillHelix.Companion99.Services;
+using WindmillHelix.Companion99.Services.Events;
 using WindmillHelix.Companion99.Services.Models;
 
 namespace WindmillHelix.Companion99.App
@@ -20,7 +22,7 @@ namespace WindmillHelix.Companion99.App
     /// <summary>
     /// Interaction logic for WhoResultsControl.xaml
     /// </summary>
-    public partial class WhoResultsControl : UserControl, ILogListener
+    public partial class WhoResultsControl : UserControl, ILogListener, IEventSubscriber<NoteUpdateEvent>
     {
         private bool _isInWhoResults = false;
 
@@ -35,12 +37,15 @@ namespace WindmillHelix.Companion99.App
 
             _lineParserService = DependencyInjector.Resolve<ILineParserService>();
             var logReaderService = DependencyInjector.Resolve<ILogReaderService>();
+            var eventService = DependencyInjector.Resolve<IEventService>();
 
+            
             LfgComboBox.SelectedIndex = 0;
             ClassComboBox.SelectedIndex = 0;
             ActionComboBox.SelectedIndex = 0;
 
             logReaderService.AddListener(this);
+            eventService.AddSubscriber(this);
 
             GuildTextBox.TextChanged += GuildTextBox_TextChanged;
             ClassComboBox.SelectionChanged += ClassComboBox_SelectionChanged;
@@ -196,8 +201,17 @@ namespace WindmillHelix.Companion99.App
         private void EditNote(WhoResult whoResult)
         {
             var editNoteWindow = new EditNoteWindow();
-            editNoteWindow.WhoResult = whoResult;
+
+            var note = new NoteItem
+            {
+                Note = whoResult.Note,
+                ServerName = whoResult.ServerName,
+                CharacterName = whoResult.Name
+            };
+
+            editNoteWindow.Note = note;
             editNoteWindow.ShowDialog();
+            whoResult.Note = editNoteWindow.Note.Note;
         }
 
         private void PutTargetOnClipboard(WhoResult whoResult)
@@ -210,6 +224,19 @@ namespace WindmillHelix.Companion99.App
         {
             var command = $"/tell {whoResult.Name}";
             Clipboard.SetText(command);
+        }
+
+        public Task Handle(NoteUpdateEvent value)
+        {
+            var note = value.Note;
+            var item = _results.SingleOrDefault(x => x.Name.EqualIngoreCase(note.CharacterName) && x.ServerName.EqualIngoreCase(note.ServerName));
+
+            if(item != null)
+            {
+                item.Note = note.Note;
+            }
+
+            return Task.CompletedTask;
         }
     }
 }

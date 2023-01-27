@@ -32,15 +32,15 @@ namespace WindmillHelix.Companion99.App
         protected override void OnActivated(EventArgs e)
         {
             base.OnActivated(e);
-            NoteTextBox.Text = WhoResult.Note;
+            NoteTextBox.Text = Note.Note;
         }
 
-        public WhoResult WhoResult { get; set; }
+        public NoteItem Note { get; set; }
 
         private void OKButton_Click(object sender, RoutedEventArgs e)
         {
-            _noteService.SetNote(WhoResult.ServerName, WhoResult.Name, NoteTextBox.Text);
-            WhoResult.Note = NoteTextBox.Text;
+            _noteService.SetNote(Note.ServerName, Note.CharacterName, NoteTextBox.Text);
+            Note.Note = NoteTextBox.Text;
             this.Close();
         }
 

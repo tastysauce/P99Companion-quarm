@@ -14,13 +14,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WindmillHelix.Companion99.Services;
 using WindmillHelix.Companion99.Services.Events;
+using WindmillHelix.Companion99.Services.Models;
 
 namespace WindmillHelix.Companion99.App
 {
     /// <summary>
     /// Interaction logic for NotesControl.xaml
     /// </summary>
-    public partial class NotesControl : UserControl, IEventSubscriber<NotesChangedEvent>
+    public partial class NotesControl : UserControl, IEventSubscriber<NoteUpdateEvent>
     {
         private readonly INoteService _noteService;
 
@@ -43,14 +44,14 @@ namespace WindmillHelix.Companion99.App
 
         protected void HandleDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            ////var item = ((ListViewItem)sender).Content as WhoResult;
+            var item = ((ListViewItem)sender).Content as NoteItem;
 
-            ////var editNoteWindow = new EditNoteWindow();
-            ////editNoteWindow.WhoResult = item;
-            ////editNoteWindow.ShowDialog();
+            var editNoteWindow = new EditNoteWindow();
+            editNoteWindow.Note = item;
+            editNoteWindow.ShowDialog();
         }
 
-        public Task Handle(NotesChangedEvent value)
+        public Task Handle(NoteUpdateEvent value)
         {
             LoadNotes();
             return Task.CompletedTask;
