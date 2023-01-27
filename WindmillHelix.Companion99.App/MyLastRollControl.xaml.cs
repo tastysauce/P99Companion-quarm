@@ -36,12 +36,14 @@ namespace WindmillHelix.Companion99.App
             if(_isNextLineMyRoll)
             {
                 var parts = line.Split(' ');
+                var max = parts[9].Replace(",", string.Empty);
                 var roll = parts.Last().Replace(".", string.Empty);
+                var display = $"{roll} / {max}";
                 _isNextLineMyRoll = false;
 
                 Dispatcher.Invoke(() =>
                 {
-                    LastRollLabel.Content = roll;
+                    LastRollLabel.Content = display;
                 });
 
                 return;

@@ -22,12 +22,16 @@ namespace WindmillHelix.Companion99.App
     public partial class MainWindow : Window
     {
         private readonly ILogReaderService _logReaderService;
+        private readonly IConfigurationService _configurationService;
 
         public MainWindow()
         {
             InitializeComponent();
 
             _logReaderService = DependencyInjector.Resolve<ILogReaderService>();
+            _configurationService = DependencyInjector.Resolve<IConfigurationService>();
+
+            AncientCyclopsTimerControl.Visibility = _configurationService.IsAncientCyclopsTimerEnabled ? Visibility.Visible : Visibility.Hidden;
         }
 
         protected override void OnActivated(EventArgs e)

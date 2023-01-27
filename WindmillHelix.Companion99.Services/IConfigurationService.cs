@@ -10,6 +10,8 @@ namespace WindmillHelix.Companion99.Services
     {
         string EverQuestFolder { get; set; }
 
+        bool IsAncientCyclopsTimerEnabled { get; set; }
+
         bool IsValidEverQuestFolder(string folderLocation);
     }
 }

@@ -11,13 +11,11 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <!--<Grid.Background>
-            <ImageBrush ImageSource="/Resources/background_dark.bmp"></ImageBrush>
-        </Grid.Background>-->
+
         <ToolBar Grid.Row="0">
             <ToolBar.Items>
                 <local:MyLastRollControl/>
-                <local:AncientCyclopsTimerControl />
+                <local:AncientCyclopsTimerControl x:Name="AncientCyclopsTimerControl" />
             </ToolBar.Items>
         </ToolBar>
         <TabControl Grid.Row="1">
@@ -38,7 +36,6 @@
             <TabItem Header="Settings">
                 <StackPanel Orientation="Vertical">
                     <StackPanel Orientation="Horizontal">
-                        <local:CloseOnDeathControl />
                     </StackPanel>
                 </StackPanel>
             </TabItem>

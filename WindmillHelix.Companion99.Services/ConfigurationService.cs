@@ -25,6 +25,23 @@ namespace WindmillHelix.Companion99.Services
             set => SetValue(nameof(EverQuestFolder), value);
         }
 
+        public bool IsAncientCyclopsTimerEnabled
+        {
+            get => GetBoolValue(nameof(IsAncientCyclopsTimerEnabled), false);
+            set => SetValue(nameof(IsAncientCyclopsTimerEnabled), value.ToString());
+        }
+
+        private bool GetBoolValue(string key, bool defaultValue)
+        {
+            var value = GetValue(key);
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                return defaultValue;
+            }
+
+            return bool.Parse(value);
+        }
+
         public string GetValue(string key)
         {
             if(!_isLoaded)
