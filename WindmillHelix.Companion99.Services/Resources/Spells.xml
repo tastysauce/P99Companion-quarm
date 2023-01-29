@@ -384,4 +384,82 @@
 	<Spell Name="Primal Avatar" Class="Shaman" Level="60" />
 	<Spell Name="Torpor" Class="Shaman" Level="60" />
 
+	
+
+	<Spell Name="Chant of Battle" Class="Bard" Level="1" />
+	<Spell Name="Chords of Dissonance" Class="Bard" Level="2" />
+	<Spell Name="Jaxan's Jig o' Vigor" Class="Bard" Level="3" />
+	<Spell Name="Lyssa's Locating Lyric" Class="Bard" Level="4" />
+	<Spell Name="Selo's Accelerando" Class="Bard" Level="5" />
+	<Spell Name="Hymn of Restoration" Class="Bard" Level="6" />
+	<Spell Name="Jonthan's Whistling Warsong" Class="Bard" Level="7" />
+	<Spell Name="Kelin's Lugubrious Lament" Class="Bard" Level="8" />
+	<Spell Name="Elemental Rhythms" Class="Bard" Level="9" />
+	<Spell Name="Anthem De Arms" Class="Bard" Level="10" />
+	<Spell Name="Cinda's Charismatic Carillon" Class="Bard" Level="11" />
+	<Spell Name="Brusco's Boastful Bellow" Class="Bard" Level="12" />
+	<Spell Name="Purifying Rhythms" Class="Bard" Level="13" />
+	<Spell Name="Lyssa's Cataloging Libretto" Class="Bard" Level="14" />
+	<Spell Name="Kelin's Lucid Lullaby" Class="Bard" Level="15" />
+	<Spell Name="Tarew's Aquatic Ayre" Class="Bard" Level="16" />
+	<Spell Name="Guardian Rhythms" Class="Bard" Level="17" />
+	<Spell Name="Denon's Disruptive Discord" Class="Bard" Level="18" />
+	<Spell Name="Shauri's Sonorous Clouding" Class="Bard" Level="19" />
+	<Spell Name="Largo's Melodic Binding" Class="Bard" Level="20" />
+	<Spell Name="Cassindra's Chant of Clarity" Class="Bard" Level="20" />
+	<Spell Name="Melanie's Mellifluous Motion" Class="Bard" Level="21" />
+	<Spell Name="Alenia's Disenchanting Melody" Class="Bard" Level="22" />
+	<Spell Name="Selo's Consonant Chain" Class="Bard" Level="23" />
+	<Spell Name="Lyssa's Veracious Concord" Class="Bard" Level="24" />
+	<Spell Name="Psalm of Warmth" Class="Bard" Level="25" />
+	<Spell Name="Angstlich's Appalling Screech" Class="Bard" Level="26" />
+	<Spell Name="Solon's Song of the Sirens" Class="Bard" Level="27" />
+	<Spell Name="Crission's Pixie Strike" Class="Bard" Level="28" />
+	<Spell Name="Psalm of Vitality" Class="Bard" Level="29" />
+	<Spell Name="Fufil's Curtailing Chant" Class="Bard" Level="30" />
+	<Spell Name="Agilmente's Aria of Eagles" Class="Bard" Level="31" />
+	<Spell Name="Cassindra's Chorus of Clarity" Class="Bard" Level="32" />
+	<Spell Name="Psalm of Cooling" Class="Bard" Level="33" />
+	<Spell Name="Cantana of Soothing" Class="Bard" Level="34" />
+	<Spell Name="Lyssa's Solidarity of Vision" Class="Bard" Level="34" />
+	<Spell Name="Denon's Dissension" Class="Bard" Level="35" />
+	<Spell Name="Vilia's Verses of Celerity" Class="Bard" Level="36" />
+	<Spell Name="Psalm of Purity" Class="Bard" Level="37" />
+	<Spell Name="Tuyen's Chant of Flame" Class="Bard" Level="38" />
+	<Spell Name="Solon's Bewitching Bravura" Class="Bard" Level="39" />
+	<Spell Name="Syvelian's Anti-Magic Aria" Class="Bard" Level="40" />
+	<Spell Name="Psalm of Mystic Shielding" Class="Bard" Level="41" />
+	<Spell Name="McVaxius' Berserker Crescendo" Class="Bard" Level="42" />
+	<Spell Name="Denon's Desperate Dirge" Class="Bard" Level="43" />
+	<Spell Name="Cassindra's Elegy" Class="Bard" Level="44" />
+	<Spell Name="Jonthan's Provocation" Class="Bard" Level="45" />
+	<Spell Name="Tuyen's Chant of Frost" Class="Bard" Level="46" />
+	<Spell Name="Niv's Melody of Preservation" Class="Bard" Level="47" />
+	<Spell Name="Selo's Chords of Cessation" Class="Bard" Level="48" />
+	<Spell Name="Shield of Song" Class="Bard" Level="49" />
+	<Spell Name="Verses of Victory" Class="Bard" Level="50" />
+	<Spell Name="Melody of Ervaj" Class="Bard" Level="50" />
+	<Spell Name="Selo's Song of Travel" Class="Bard" Level="51" />
+	<Spell Name="Largo's Absonant Binding" Class="Bard" Level="51" />
+	<Spell Name="Nillipus' March of the Wee" Class="Bard" Level="52" />
+	<Spell Name="Song of Twilight" Class="Bard" Level="53" />
+	<Spell Name="Song of Dawn" Class="Bard" Level="53" />
+	<Spell Name="Vilia's Chorus of Celerity" Class="Bard" Level="54" />
+	<Spell Name="Selo's Assonant Strane" Class="Bard" Level="54" />
+	<Spell Name="Cantata of Replenishment" Class="Bard" Level="55" />
+	<Spell Name="Brusco's Bombastic Bellow" Class="Bard" Level="55" />
+	<Spell Name="Occlusion of Sound" Class="Bard" Level="55" />
+	<Spell Name="Song of Highsun" Class="Bard" Level="56" />
+	<Spell Name="Song of Midnight" Class="Bard" Level="56" />
+	<Spell Name="McVaxius' Rousing Rondo" Class="Bard" Level="57" />
+	<Spell Name="Cassindra's Insipid Ditty" Class="Bard" Level="57" />
+	<Spell Name="Niv's Harmonic" Class="Bard" Level="58" />
+	<Spell Name="Jonthan's Inspiration" Class="Bard" Level="58" />
+	<Spell Name="Denon's Bereavement" Class="Bard" Level="59" />
+	<Spell Name="Solon's Charismatic Concord" Class="Bard" Level="59" />
+	<Spell Name="Kazumi's Note of Preservation" Class="Bard" Level="60" />
+	<Spell Name="Angstlich's Assonance" Class="Bard" Level="60" />
+	<Spell Name="Composition of Ervaj" Class="Bard" Level="60" />
+
+
 </Spells>
