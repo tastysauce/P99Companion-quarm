@@ -204,4 +204,184 @@
 	<Spell Name="Nature's Touch" Class="Druid" Level="60" />
 	<Spell Name="Protection of the Glades" Class="Druid" Level="60" />
 
+	
+
+	<Spell Name="Burst of Flame" Class="Shaman" Level="1" />
+	<Spell Name="Cure Disease" Class="Shaman" Level="1" />
+	<Spell Name="Dexterous Aura" Class="Shaman" Level="1" />
+	<Spell Name="Endure Cold" Class="Shaman" Level="1" />
+	<Spell Name="Flash of Light" Class="Shaman" Level="1" />
+	<Spell Name="Inner Fire" Class="Shaman" Level="1" />
+	<Spell Name="Minor Healing" Class="Shaman" Level="1" />
+	<Spell Name="Strengthen" Class="Shaman" Level="1" />
+	<Spell Name="True North" Class="Shaman" Level="1" />
+	<Spell Name="Cure Poison" Class="Shaman" Level="5" />
+	<Spell Name="Drowsy" Class="Shaman" Level="5" />
+	<Spell Name="Endure Fire" Class="Shaman" Level="5" />
+	<Spell Name="Feet like Cat" Class="Shaman" Level="5" />
+	<Spell Name="Fleeting Fury" Class="Shaman" Level="5" />
+	<Spell Name="Frost Rift" Class="Shaman" Level="5" />
+	<Spell Name="Gate" Class="Shaman" Level="5" />
+	<Spell Name="Scale Skin" Class="Shaman" Level="5" />
+	<Spell Name="Sicken" Class="Shaman" Level="5" />
+	<Spell Name="Spirit Pouch" Class="Shaman" Level="5" />
+	<Spell Name="Summon Drink" Class="Shaman" Level="5" />
+	<Spell Name="Cure Blindness" Class="Shaman" Level="9" />
+	<Spell Name="Endure Disease" Class="Shaman" Level="9" />
+	<Spell Name="Light Healing" Class="Shaman" Level="9" />
+	<Spell Name="Sense Animals" Class="Shaman" Level="9" />
+	<Spell Name="Serpent Sight" Class="Shaman" Level="9" />
+	<Spell Name="Spirit of Bear" Class="Shaman" Level="9" />
+	<Spell Name="Spirit of Wolf" Class="Shaman" Level="9" />
+	<Spell Name="Spirit Sight" Class="Shaman" Level="9" />
+	<Spell Name="Summon Food" Class="Shaman" Level="9" />
+	<Spell Name="Tainted Breath" Class="Shaman" Level="9" />
+	<Spell Name="Bind Affinity" Class="Shaman" Level="14" />
+	<Spell Name="Burst of Strength" Class="Shaman" Level="14" />
+	<Spell Name="Disempower" Class="Shaman" Level="14" />
+	<Spell Name="Endure Poison" Class="Shaman" Level="14" />
+	<Spell Name="Enduring Breath" Class="Shaman" Level="14" />
+	<Spell Name="Invisibility versus Animals" Class="Shaman" Level="14" />
+	<Spell Name="Levitate" Class="Shaman" Level="14" />
+	<Spell Name="Root" Class="Shaman" Level="14" />
+	<Spell Name="Spirit of Snake" Class="Shaman" Level="14" />
+	<Spell Name="Spirit Strike" Class="Shaman" Level="14" />
+	<Spell Name="Turtle Skin" Class="Shaman" Level="14" />
+	<Spell Name="Walking Sleep" Class="Shaman" Level="14" />
+	<Spell Name="Affliction" Class="Shaman" Level="19" />
+	<Spell Name="Cancel Magic" Class="Shaman" Level="19" />
+	<Spell Name="Endure Magic" Class="Shaman" Level="19" />
+	<Spell Name="Frenzy" Class="Shaman" Level="19" />
+	<Spell Name="Healing" Class="Shaman" Level="19" />
+	<Spell Name="Infectious Cloud" Class="Shaman" Level="19" />
+	<Spell Name="Insidious Fever" Class="Shaman" Level="19" />
+	<Spell Name="Malaise" Class="Shaman" Level="19" />
+	<Spell Name="Shrink" Class="Shaman" Level="19" />
+	<Spell Name="Spirit of Cat" Class="Shaman" Level="19" />
+	<Spell Name="Spirit Strength" Class="Shaman" Level="19" />
+	<Spell Name="Vision" Class="Shaman" Level="19" />
+	<Spell Name="Cannibalize" Class="Shaman" Level="24" />
+	<Spell Name="Counteract Disease" Class="Shaman" Level="24" />
+	<Spell Name="Creeping Vision" Class="Shaman" Level="24" />
+	<Spell Name="Envenomed Breath" Class="Shaman" Level="24" />
+	<Spell Name="Frost Strike" Class="Shaman" Level="24" />
+	<Spell Name="Invigor" Class="Shaman" Level="24" />
+	<Spell Name="Poison Storm" Class="Shaman" Level="24" />
+	<Spell Name="Protect" Class="Shaman" Level="24" />
+	<Spell Name="Regeneration" Class="Shaman" Level="24" />
+	<Spell Name="Resist Cold" Class="Shaman" Level="24" />
+	<Spell Name="Spirit of Cheetah" Class="Shaman" Level="24" />
+	<Spell Name="Spirit of Monkey" Class="Shaman" Level="24" />
+	<Spell Name="Spirit of Ox" Class="Shaman" Level="24" />
+	<Spell Name="Scale of Wolf" Class="Shaman" Level="24" />
+	<Spell Name="Alluring Aura" Class="Shaman" Level="29" />
+	<Spell Name="Befriend Animal" Class="Shaman" Level="29" />
+	<Spell Name="Counteract Poison" Class="Shaman" Level="29" />
+	<Spell Name="Greater Healing" Class="Shaman" Level="29" />
+	<Spell Name="Imbue Amber" Class="Shaman" Level="29" />
+	<Spell Name="Imbue Ivory" Class="Shaman" Level="29" />
+	<Spell Name="Imbue Jade" Class="Shaman" Level="29" />
+	<Spell Name="Imbue Sapphire" Class="Shaman" Level="29" />
+	<Spell Name="Invisibility" Class="Shaman" Level="29" />
+	<Spell Name="Listless Power" Class="Shaman" Level="29" />
+	<Spell Name="Quickness" Class="Shaman" Level="29" />
+	<Spell Name="Raging Strength" Class="Shaman" Level="29" />
+	<Spell Name="Resist Fire" Class="Shaman" Level="29" />
+	<Spell Name="Rising Dexterity" Class="Shaman" Level="29" />
+	<Spell Name="Tagar's Insects" Class="Shaman" Level="29" />
+	<Spell Name="Ultravision" Class="Shaman" Level="29" />
+	<Spell Name="Charm Animals" Class="Shaman" Level="34" />
+	<Spell Name="Companion Spirit" Class="Shaman" Level="34" />
+	<Spell Name="Enstill" Class="Shaman" Level="34" />
+	<Spell Name="Fury" Class="Shaman" Level="34" />
+	<Spell Name="Health" Class="Shaman" Level="34" />
+	<Spell Name="Malaisement" Class="Shaman" Level="34" />
+	<Spell Name="Nimble" Class="Shaman" Level="34" />
+	<Spell Name="Resist Disease" Class="Shaman" Level="34" />
+	<Spell Name="Scourge" Class="Shaman" Level="34" />
+	<Spell Name="Shifting Shield" Class="Shaman" Level="34" />
+	<Spell Name="Shock of the Tainted" Class="Shaman" Level="34" />
+	<Spell Name="Talisman of Tnarg" Class="Shaman" Level="34" />
+	<Spell Name="Winter's Roar" Class="Shaman" Level="34" />
+	<Spell Name="Assiduous Vision" Class="Shaman" Level="39" />
+	<Spell Name="Blinding Luminance" Class="Shaman" Level="39" />
+	<Spell Name="Cannibalize II" Class="Shaman" Level="39" />
+	<Spell Name="Chloroplast" Class="Shaman" Level="39" />
+	<Spell Name="Deftness" Class="Shaman" Level="39" />
+	<Spell Name="Extinguish Fatigue" Class="Shaman" Level="39" />
+	<Spell Name="Furious Strength" Class="Shaman" Level="39" />
+	<Spell Name="Gale of Poison" Class="Shaman" Level="39" />
+	<Spell Name="Glamour" Class="Shaman" Level="39" />
+	<Spell Name="Insidious Malady" Class="Shaman" Level="39" />
+	<Spell Name="Resist Poison" Class="Shaman" Level="39" />
+	<Spell Name="Togor's Insects" Class="Shaman" Level="39" />
+	<Spell Name="Tumultuous Strength" Class="Shaman" Level="39" />
+	<Spell Name="Venom of the Snake" Class="Shaman" Level="39" />
+	<Spell Name="Vigilant Spirit" Class="Shaman" Level="39" />
+	<Spell Name="Agility" Class="Shaman" Level="44" />
+	<Spell Name="Alacrity" Class="Shaman" Level="44" />
+	<Spell Name="Blast of Poison" Class="Shaman" Level="44" />
+	<Spell Name="Blizzard Blast" Class="Shaman" Level="44" />
+	<Spell Name="Guardian" Class="Shaman" Level="44" />
+	<Spell Name="Guardian Spirit" Class="Shaman" Level="44" />
+	<Spell Name="Incapacitate" Class="Shaman" Level="44" />
+	<Spell Name="Nullify Magic" Class="Shaman" Level="44" />
+	<Spell Name="Resist Magic" Class="Shaman" Level="44" />
+	<Spell Name="Stamina" Class="Shaman" Level="44" />
+	<Spell Name="Summon Companion" Class="Shaman" Level="44" />
+	<Spell Name="Talisman of Altuna" Class="Shaman" Level="44" />
+	<Spell Name="Abolish Disease" Class="Shaman" Level="49" />
+	<Spell Name="Charisma" Class="Shaman" Level="49" />
+	<Spell Name="Dexterity" Class="Shaman" Level="49" />
+	<Spell Name="Envenomed Bolt" Class="Shaman" Level="49" />
+	<Spell Name="Frenzied Spirit" Class="Shaman" Level="49" />
+	<Spell Name="Malosi" Class="Shaman" Level="49" />
+	<Spell Name="Plague" Class="Shaman" Level="49" />
+	<Spell Name="Rage" Class="Shaman" Level="49" />
+	<Spell Name="Strength" Class="Shaman" Level="49" />
+	<Spell Name="Spirit Quickening" Class="Shaman" Level="50" />
+	<Spell Name="Superior Healing" Class="Shaman" Level="51" />
+	<Spell Name="Immobilize" Class="Shaman" Level="51" />
+	<Spell Name="Talisman of Jasinth" Class="Shaman" Level="51" />
+	<Spell Name="Turgur's Insects" Class="Shaman" Level="51" />
+	<Spell Name="Insidious Decay" Class="Shaman" Level="52" />
+	<Spell Name="Regrowth" Class="Shaman" Level="52" />
+	<Spell Name="Spirit of Scale" Class="Shaman" Level="52" />
+	<Spell Name="Cripple" Class="Shaman" Level="53" />
+	<Spell Name="Deliriously Nimble" Class="Shaman" Level="53" />
+	<Spell Name="Superior Healing" Class="Shaman" Level="53" />
+	<Spell Name="Talisman of Shadoo" Class="Shaman" Level="53" />
+	<Spell Name="Cannibalize III" Class="Shaman" Level="54" />
+	<Spell Name="Ice Strike" Class="Shaman" Level="54" />
+	<Spell Name="Riotous Health" Class="Shaman" Level="54" />
+	<Spell Name="Shroud of the Spirits" Class="Shaman" Level="54" />
+	<Spell Name="Annul Magic" Class="Shaman" Level="55" />
+	<Spell Name="Chloroblast" Class="Shaman" Level="55" />
+	<Spell Name="Form of the Great Bear" Class="Shaman" Level="55" />
+	<Spell Name="Spirit of the Howler" Class="Shaman" Level="55" />
+	<Spell Name="Talisman of Kragg" Class="Shaman" Level="55" />
+	<Spell Name="Torrent of Poison" Class="Shaman" Level="55" />
+	<Spell Name="Acumen" Class="Shaman" Level="56" />
+	<Spell Name="Bane of Nife" Class="Shaman" Level="56" />
+	<Spell Name="Celerity" Class="Shaman" Level="56" />
+	<Spell Name="Paralyzing Earth" Class="Shaman" Level="56" />
+	<Spell Name="Malosini" Class="Shaman" Level="57" />
+	<Spell Name="Maniacal Strength" Class="Shaman" Level="57" />
+	<Spell Name="Talisman of the Brute" Class="Shaman" Level="57" />
+	<Spell Name="Talisman of the Cat" Class="Shaman" Level="57" />
+	<Spell Name="Cannibalize IV" Class="Shaman" Level="58" />
+	<Spell Name="Mortal Deftness" Class="Shaman" Level="58" />
+	<Spell Name="Talisman of the Rhino" Class="Shaman" Level="58" />
+	<Spell Name="Talisman of the Serpent" Class="Shaman" Level="58" />
+	<Spell Name="Tigir's Insects" Class="Shaman" Level="58" />
+	<Spell Name="Pox of Bertoxxulous" Class="Shaman" Level="59" />
+	<Spell Name="Talisman of the Raptor" Class="Shaman" Level="59" />
+	<Spell Name="Unfailing Reverence" Class="Shaman" Level="59" />
+	<Spell Name="Voice of the Berserker" Class="Shaman" Level="59" />
+	<Spell Name="Avatar" Class="Shaman" Level="60" />
+	<Spell Name="Focus of Spirit" Class="Shaman" Level="60" />
+	<Spell Name="Malo" Class="Shaman" Level="60" />
+	<Spell Name="Primal Avatar" Class="Shaman" Level="60" />
+	<Spell Name="Torpor" Class="Shaman" Level="60" />
+
 </Spells>
