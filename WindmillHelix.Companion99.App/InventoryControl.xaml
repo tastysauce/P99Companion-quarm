@@ -14,6 +14,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="0">
             <Label Content="Character:"/>
             <ComboBox x:Name="CharacterComboBox" DisplayMemberPath="Display" SelectedValuePath="Value" Width="120px" />
+            <Button x:Name="KeysButton" Content="Keys" Click="KeysButton_Click" />
             <Label Content="Search:"/>
             <TextBox x:Name="SearchTextBox" Width="200px" />
         </StackPanel>

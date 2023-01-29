@@ -28,6 +28,8 @@ namespace WindmillHelix.Companion99.App
         private readonly IInventoryService _inventoryService;
         private readonly FileSystemWatcher _watcher;
 
+        private IReadOnlyCollection<InventoryItem> _filteredItems;
+
         public InventoryControl()
         {
             InitializeComponent();
@@ -47,6 +49,7 @@ namespace WindmillHelix.Companion99.App
 
             CharacterComboBox.ItemsSource = characterItems;
             CharacterComboBox.SelectedIndex = 0;
+            KeysButton.IsEnabled = false;
 
             SearchTextBox.TextChanged += SearchTextBox_TextChanged;
             CharacterComboBox.SelectionChanged += CharacterComboBox_SelectionChanged;
@@ -87,6 +90,8 @@ namespace WindmillHelix.Companion99.App
 
         private void CharacterComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            string characterName = (string)CharacterComboBox.SelectedValue;
+            KeysButton.IsEnabled = !string.IsNullOrWhiteSpace(characterName) && !characterName.StartsWith("--");
             SetItemSource();
         }
 
@@ -108,6 +113,7 @@ namespace WindmillHelix.Companion99.App
 
             if(string.IsNullOrWhiteSpace(searchText))
             {
+                _filteredItems = filtered;
                 ItemsListView.ItemsSource = filtered;
                 return;
             }
@@ -122,7 +128,24 @@ namespace WindmillHelix.Companion99.App
                 filtered = filtered.Where(x => x.ItemName.Contains(searchText, StringComparison.InvariantCultureIgnoreCase)).ToList();
             }
 
+            _filteredItems = filtered;
             ItemsListView.ItemsSource = filtered;
+        }
+
+        private void KeysButton_Click(object sender, RoutedEventArgs e)
+        {
+            string characterName = (string)CharacterComboBox.SelectedValue;
+            if (string.IsNullOrWhiteSpace(characterName))
+            {
+                throw new Exception("Character is required");
+            }
+
+            var filtered = _items.Where(x => x.CharacterName == characterName).ToList();
+
+            var window = new KeysWindow();
+            window.Items = filtered;
+            window.CharacterName = characterName;
+            window.ShowDialog();
         }
     }
 }

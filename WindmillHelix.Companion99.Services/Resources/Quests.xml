@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Quests>
+	<QuestItem ItemName="Key of Veeshan (Key to Veeshan's Peak)" ItemId="20884">
+		<SubQuestItems>
+			<QuestItem ItemName="Trakanon's Tooth" ItemId="7276" />
+			<QuestItem ItemName="Medallion of the Jarsath" ItemId="19954">
+				<SubQuestItems>
+					<QuestItem ItemName="Piece of a Medallion (Top shard of the Jarsath Medallion)" ItemId="19961" />
+					<QuestItem ItemName="Piece of a Medallion (Middle shard of the Jarsath Medallion)" ItemId="19960" />
+					<QuestItem ItemName="Piece of a Medallion (Bottom shard of the Jarsath Medallion)" ItemId="19959" />
+				</SubQuestItems>
+			</QuestItem>
+			<QuestItem ItemName="Medallion of the Obulus" ItemId="19953">
+				<SubQuestItems>
+					<QuestItem ItemName="Piece of a Medallion (Top shard of the Obulus Medallion)" ItemId="19958">
+						<SubQuestItems>
+							<QuestItem ItemName="Burnished Wooden Stave" ItemId="6353" />
+						</SubQuestItems>
+					</QuestItem>
+					<QuestItem ItemName="Piece of a Medallion (Middle shard of the Obulus Medallion)" ItemId="19957" />
+					<QuestItem ItemName="Piece of a Medallion (Bottom shard of the Obulus Medallion)" ItemId="19956" />
+				</SubQuestItems>
+			</QuestItem>
+			<QuestItem ItemName="Medallion of the Kylong" ItemId="19955">
+				<SubQuestItems>
+					<QuestItem ItemName="Piece of a Medallion (Top shard of the Kylong medallion)" ItemId="19964">
+						<SubQuestItems>
+							<QuestItem ItemName="Black Sapphire" ItemId="10036" />
+							<QuestItem ItemName="Ruby" ItemId="10035" />
+						</SubQuestItems>
+					</QuestItem>
+					<QuestItem ItemName="Piece of a Medallion (Middle shard of the Kylong medallion)" ItemId="19963" />
+					<QuestItem ItemName="Piece of a Medallion (Bottom shard of the Kylong medallion)" ItemId="19962" />
+				</SubQuestItems>
+			</QuestItem>
+		</SubQuestItems>
+	</QuestItem>
+
+	<QuestItem ItemName="Trakanon Idol (Key to Old Sebilis)" ItemId="1810">
+		<SubQuestItems>
+			<QuestItem ItemName="Medallion of the Kunzar" ItemId="19951" />
+			<QuestItem ItemName="Medallion of the Nathsar" ItemId="19952"/>
+		</SubQuestItems>
+	</QuestItem>>
+</Quests>

@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Quests.xml" />
     <None Remove="Resources\Spells.xml" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Quests.xml" />
     <EmbeddedResource Include="Resources\Spells.xml" />
   </ItemGroup>
 
