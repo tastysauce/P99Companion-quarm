@@ -255,7 +255,7 @@
 	<Spell Name="Healing" Class="Shaman" Level="19" />
 	<Spell Name="Infectious Cloud" Class="Shaman" Level="19" />
 	<Spell Name="Insidious Fever" Class="Shaman" Level="19" />
-	<Spell Name="Malaise" Class="Shaman" Level="19" />
+	<Spell Name="Malise" Class="Shaman" Level="19" />
 	<Spell Name="Shrink" Class="Shaman" Level="19" />
 	<Spell Name="Spirit of Cat" Class="Shaman" Level="19" />
 	<Spell Name="Spirit Strength" Class="Shaman" Level="19" />
@@ -295,7 +295,7 @@
 	<Spell Name="Enstill" Class="Shaman" Level="34" />
 	<Spell Name="Fury" Class="Shaman" Level="34" />
 	<Spell Name="Health" Class="Shaman" Level="34" />
-	<Spell Name="Malaisement" Class="Shaman" Level="34" />
+	<Spell Name="Malisement" Class="Shaman" Level="34" />
 	<Spell Name="Nimble" Class="Shaman" Level="34" />
 	<Spell Name="Resist Disease" Class="Shaman" Level="34" />
 	<Spell Name="Scourge" Class="Shaman" Level="34" />
@@ -366,7 +366,7 @@
 	<Spell Name="Celerity" Class="Shaman" Level="56" />
 	<Spell Name="Paralyzing Earth" Class="Shaman" Level="56" />
 	<Spell Name="Malosini" Class="Shaman" Level="57" />
-	<Spell Name="Maniacal Strength" Class="Shaman" Level="57" />
+	<Spell Name="Manicial Strength" Class="Shaman" Level="57" />
 	<Spell Name="Talisman of the Brute" Class="Shaman" Level="57" />
 	<Spell Name="Talisman of the Cat" Class="Shaman" Level="57" />
 	<Spell Name="Cannibalize IV" Class="Shaman" Level="58" />
@@ -461,5 +461,1139 @@
 	<Spell Name="Angstlich's Assonance" Class="Bard" Level="60" />
 	<Spell Name="Composition of Ervaj" Class="Bard" Level="60" />
 
+	<Spell Name="Courage" Class="Cleric" Level="1" />
+	<Spell Name="Cure Poison" Class="Cleric" Level="1" />
+	<Spell Name="Divine Aura" Class="Cleric" Level="1" />
+	<Spell Name="Flash of Light" Class="Cleric" Level="1" />
+	<Spell Name="Lull" Class="Cleric" Level="1" />
+	<Spell Name="Minor Healing" Class="Cleric" Level="1" />
+	<Spell Name="Spook the Dead" Class="Cleric" Level="1" />
+	<Spell Name="Strike" Class="Cleric" Level="1" />
+	<Spell Name="True North" Class="Cleric" Level="1" />
+	<Spell Name="Yaulp" Class="Cleric" Level="1" />
+	<Spell Name="Cure Blindness" Class="Cleric" Level="5" />
+	<Spell Name="Cure Disease" Class="Cleric" Level="5" />
+	<Spell Name="Furor" Class="Cleric" Level="5" />
+	<Spell Name="Gate" Class="Cleric" Level="5" />
+	<Spell Name="Holy Armor" Class="Cleric" Level="5" />
+	<Spell Name="Light Healing" Class="Cleric" Level="5" />
+	<Spell Name="Reckless Strength" Class="Cleric" Level="5" />
+	<Spell Name="Stun" Class="Cleric" Level="5" />
+	<Spell Name="Summon Drink" Class="Cleric" Level="5" />
+	<Spell Name="Ward Undead" Class="Cleric" Level="5" />
+	<Spell Name="Center" Class="Cleric" Level="9" />
+	<Spell Name="Endure Fire" Class="Cleric" Level="9" />
+	<Spell Name="Endure Poison" Class="Cleric" Level="9" />
+	<Spell Name="Fear" Class="Cleric" Level="9" />
+	<Spell Name="Hammer of Wrath" Class="Cleric" Level="9" />
+	<Spell Name="Invigor" Class="Cleric" Level="9" />
+	<Spell Name="Root" Class="Cleric" Level="9" />
+	<Spell Name="Sense the Dead" Class="Cleric" Level="9" />
+	<Spell Name="Soothe" Class="Cleric" Level="9" />
+	<Spell Name="Summon Food" Class="Cleric" Level="9" />
+	<Spell Name="Word of Pain" Class="Cleric" Level="9" />
+	<Spell Name="Bind Affinity" Class="Cleric" Level="14" />
+	<Spell Name="Cancel Magic" Class="Cleric" Level="14" />
+	<Spell Name="Endure Cold" Class="Cleric" Level="14" />
+	<Spell Name="Endure Disease" Class="Cleric" Level="14" />
+	<Spell Name="Expulse Undead" Class="Cleric" Level="14" />
+	<Spell Name="Halo of Light" Class="Cleric" Level="14" />
+	<Spell Name="Healing" Class="Cleric" Level="14" />
+	<Spell Name="Invisibility versus Undead" Class="Cleric" Level="14" />
+	<Spell Name="Sense Summoned" Class="Cleric" Level="14" />
+	<Spell Name="Smite" Class="Cleric" Level="14" />
+	<Spell Name="Symbol of Transal" Class="Cleric" Level="14" />
+	<Spell Name="Calm" Class="Cleric" Level="19" />
+	<Spell Name="Daring" Class="Cleric" Level="19" />
+	<Spell Name="Endure Magic" Class="Cleric" Level="19" />
+	<Spell Name="Extinguish Fatigue" Class="Cleric" Level="19" />
+	<Spell Name="Holy Might" Class="Cleric" Level="19" />
+	<Spell Name="Spirit Armor" Class="Cleric" Level="19" />
+	<Spell Name="Ward Summoned" Class="Cleric" Level="19" />
+	<Spell Name="Word of Shadow" Class="Cleric" Level="19" />
+	<Spell Name="Yaulp II" Class="Cleric" Level="19" />
+	<Spell Name="Bravery" Class="Cleric" Level="24" />
+	<Spell Name="Counteract Poison" Class="Cleric" Level="24" />
+	<Spell Name="Dismiss Undead" Class="Cleric" Level="24" />
+	<Spell Name="Greater Healing" Class="Cleric" Level="24" />
+	<Spell Name="Hammer of Striking" Class="Cleric" Level="24" />
+	<Spell Name="Inspire Fear" Class="Cleric" Level="24" />
+	<Spell Name="Symbol of Ryltan" Class="Cleric" Level="24" />
+	<Spell Name="Wave of Fear" Class="Cleric" Level="24" />
+	<Spell Name="Abundant Drink" Class="Cleric" Level="29" />
+	<Spell Name="Counteract Disease" Class="Cleric" Level="29" />
+	<Spell Name="Divine Barrier" Class="Cleric" Level="29" />
+	<Spell Name="Enstill" Class="Cleric" Level="29" />
+	<Spell Name="Expulse Summoned" Class="Cleric" Level="29" />
+	<Spell Name="Guard" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Amber" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Black Pearl" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Black Sapphire" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Diamond" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Emerald" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Opal" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Peridot" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Plains Pebble" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Rose Quartz" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Ruby" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Sapphire" Class="Cleric" Level="29" />
+	<Spell Name="Imbue Topaz" Class="Cleric" Level="29" />
+	<Spell Name="Panic the Dead" Class="Cleric" Level="29" />
+	<Spell Name="Revive" Class="Cleric" Level="29" />
+	<Spell Name="Word of Spirit" Class="Cleric" Level="29" />
+	<Spell Name="Wrath" Class="Cleric" Level="29" />
+	<Spell Name="Abundant Food" Class="Cleric" Level="34" />
+	<Spell Name="Armor of Protection" Class="Cleric" Level="34" />
+	<Spell Name="Atone" Class="Cleric" Level="34" />
+	<Spell Name="Blinding Luminance" Class="Cleric" Level="34" />
+	<Spell Name="Expel Undead" Class="Cleric" Level="34" />
+	<Spell Name="Force" Class="Cleric" Level="34" />
+	<Spell Name="Frenzied Strength" Class="Cleric" Level="34" />
+	<Spell Name="Resist Fire" Class="Cleric" Level="34" />
+	<Spell Name="Resist Poison" Class="Cleric" Level="34" />
+	<Spell Name="Superior Healing" Class="Cleric" Level="34" />
+	<Spell Name="Symbol of Pinzarn" Class="Cleric" Level="34" />
+	<Spell Name="Tremor" Class="Cleric" Level="34" />
+	<Spell Name="Valor" Class="Cleric" Level="34" />
+	<Spell Name="Word of Health" Class="Cleric" Level="34" />
+	<Spell Name="Armor of Faith" Class="Cleric" Level="39" />
+	<Spell Name="Complete Healing" Class="Cleric" Level="39" />
+	<Spell Name="Dismiss Summoned" Class="Cleric" Level="39" />
+	<Spell Name="Invoke Fear" Class="Cleric" Level="39" />
+	<Spell Name="Nullify Magic" Class="Cleric" Level="39" />
+	<Spell Name="Pacify" Class="Cleric" Level="39" />
+	<Spell Name="Resist Cold" Class="Cleric" Level="39" />
+	<Spell Name="Resist Disease" Class="Cleric" Level="39" />
+	<Spell Name="Resuscitate" Class="Cleric" Level="39" />
+	<Spell Name="Turning of the Unnatural" Class="Cleric" Level="39" />
+	<Spell Name="Word of Souls" Class="Cleric" Level="39" />
+	<Spell Name="Banish Undead" Class="Cleric" Level="44" />
+	<Spell Name="Celestial Healing" Class="Cleric" Level="44" />
+	<Spell Name="Earthquake" Class="Cleric" Level="44" />
+	<Spell Name="Hammer of Requital" Class="Cleric" Level="44" />
+	<Spell Name="Resist Magic" Class="Cleric" Level="44" />
+	<Spell Name="Resolution" Class="Cleric" Level="44" />
+	<Spell Name="Retribution" Class="Cleric" Level="44" />
+	<Spell Name="Symbol of Naltron" Class="Cleric" Level="44" />
+	<Spell Name="Yaulp III" Class="Cleric" Level="44" />
+	<Spell Name="Abolish Poison" Class="Cleric" Level="49" />
+	<Spell Name="Expel Summoned" Class="Cleric" Level="49" />
+	<Spell Name="Immobilize" Class="Cleric" Level="49" />
+	<Spell Name="Resurrection" Class="Cleric" Level="49" />
+	<Spell Name="Shield of Words" Class="Cleric" Level="49" />
+	<Spell Name="Sound of Force" Class="Cleric" Level="49" />
+	<Spell Name="Word Divine" Class="Cleric" Level="49" />
+	<Spell Name="Word of Healing" Class="Cleric" Level="49" />
+	<Spell Name="Improved Invis to Undead" Class="Cleric" Level="50" />
+	<Spell Name="Death Pact" Class="Cleric" Level="51" />
+	<Spell Name="Dread of Night" Class="Cleric" Level="51" />
+	<Spell Name="Remedy" Class="Cleric" Level="51" />
+	<Spell Name="Sunskin" Class="Cleric" Level="51" />
+	<Spell Name="Heroic Bond" Class="Cleric" Level="52" />
+	<Spell Name="Heroism" Class="Cleric" Level="52" />
+	<Spell Name="Upheaval" Class="Cleric" Level="52" />
+	<Spell Name="Word of Vigor" Class="Cleric" Level="52" />
+	<Spell Name="Annul Magic" Class="Cleric" Level="53" />
+	<Spell Name="Divine Light" Class="Cleric" Level="53" />
+	<Spell Name="Yaulp IV" Class="Cleric" Level="53" />
+	<Spell Name="Reckoning" Class="Cleric" Level="54" />
+	<Spell Name="Symbol of Marzin" Class="Cleric" Level="54" />
+	<Spell Name="Unswerving Hammer" Class="Cleric" Level="54" />
+	<Spell Name="Exile Undead" Class="Cleric" Level="55" />
+	<Spell Name="Fortitude" Class="Cleric" Level="55" />
+	<Spell Name="Stun Command" Class="Cleric" Level="55" />
+	<Spell Name="Wake of Tranquility" Class="Cleric" Level="55" />
+	<Spell Name="Banish Summoned" Class="Cleric" Level="56" />
+	<Spell Name="Mark of Karn" Class="Cleric" Level="56" />
+	<Spell Name="Paralyzing Earth" Class="Cleric" Level="56" />
+	<Spell Name="Reviviscence" Class="Cleric" Level="56" />
+	<Spell Name="Aegis" Class="Cleric" Level="57" />
+	<Spell Name="Bulwark of Faith" Class="Cleric" Level="57" />
+	<Spell Name="Trepidation" Class="Cleric" Level="57" />
+	<Spell Name="Word of Restoration" Class="Cleric" Level="57" />
+	<Spell Name="Antidote" Class="Cleric" Level="58" />
+	<Spell Name="Enforced Reverence" Class="Cleric" Level="58" />
+	<Spell Name="Naltron's Mark" Class="Cleric" Level="58" />
+	<Spell Name="Celestial Elixir" Class="Cleric" Level="59" />
+	<Spell Name="The Unspoken Word" Class="Cleric" Level="59" />
+	<Spell Name="Aegolism" Class="Cleric" Level="60" />
+	<Spell Name="Banishment of Shadows" Class="Cleric" Level="60" />
+	<Spell Name="Divine Intervention" Class="Cleric" Level="60" />
+	<Spell Name="Word of Redemption" Class="Cleric" Level="60" />
+	
+	
+	
+	<Spell Name="Lull" Class="Enchanter" Level="1" />
+	<Spell Name="Minor Illusion" Class="Enchanter" Level="1" />
+	<Spell Name="Minor Shielding" Class="Enchanter" Level="1" />
+	<Spell Name="Pendril's Animation" Class="Enchanter" Level="1" />
+	<Spell Name="Reclaim Energy" Class="Enchanter" Level="1" />
+	<Spell Name="Shallow Breath" Class="Enchanter" Level="1" />
+	<Spell Name="Strengthen" Class="Enchanter" Level="1" />
+	<Spell Name="Taper Enchantment" Class="Enchanter" Level="1" />
+	<Spell Name="True North" Class="Enchanter" Level="1" />
+	<Spell Name="Weaken" Class="Enchanter" Level="1" />
+	<Spell Name="Color Flux" Class="Enchanter" Level="4" />
+	<Spell Name="Enfeeblement" Class="Enchanter" Level="4" />
+	<Spell Name="Fear" Class="Enchanter" Level="4" />
+	<Spell Name="Gate" Class="Enchanter" Level="4" />
+	<Spell Name="Haze" Class="Enchanter" Level="4" />
+	<Spell Name="Illusion: Half-Elf" Class="Enchanter" Level="4" />
+	<Spell Name="Illusion: Human" Class="Enchanter" Level="4" />
+	<Spell Name="Invisibility" Class="Enchanter" Level="4" />
+	<Spell Name="Juli's Animation" Class="Enchanter" Level="4" />
+	<Spell Name="Mesmerize" Class="Enchanter" Level="4" />
+	<Spell Name="Suffocating Sphere" Class="Enchanter" Level="4" />
+	<Spell Name="Tashan" Class="Enchanter" Level="4" />
+	<Spell Name="Alliance" Class="Enchanter" Level="8" />
+	<Spell Name="Bind Sight" Class="Enchanter" Level="8" />
+	<Spell Name="Cancel Magic" Class="Enchanter" Level="8" />
+	<Spell Name="Chaotic Feedback" Class="Enchanter" Level="8" />
+	<Spell Name="Enchant Clay" Class="Enchanter" Level="8" />
+	<Spell Name="Enchant: Silver" Class="Enchanter" Level="8" />
+	<Spell Name="Eye of Confusion" Class="Enchanter" Level="8" />
+	<Spell Name="Illusion: Gnome" Class="Enchanter" Level="8" />
+	<Spell Name="Illusion: Wood Elf" Class="Enchanter" Level="8" />
+	<Spell Name="Lesser Shielding" Class="Enchanter" Level="8" />
+	<Spell Name="Mircyl's Animation" Class="Enchanter" Level="8" />
+	<Spell Name="Root" Class="Enchanter" Level="8" />
+	<Spell Name="See Invisible" Class="Enchanter" Level="8" />
+	<Spell Name="Sentinel" Class="Enchanter" Level="8" />
+	<Spell Name="Soothe" Class="Enchanter" Level="8" />
+	<Spell Name="Bind Affinity" Class="Enchanter" Level="12" />
+	<Spell Name="Charm" Class="Enchanter" Level="12" />
+	<Spell Name="Choke" Class="Enchanter" Level="12" />
+	<Spell Name="Ebbing Strength" Class="Enchanter" Level="12" />
+	<Spell Name="Enduring Breath" Class="Enchanter" Level="12" />
+	<Spell Name="Illusion: Dark Elf" Class="Enchanter" Level="12" />
+	<Spell Name="Illusion: Erudite" Class="Enchanter" Level="12" />
+	<Spell Name="Illusion: Halfling" Class="Enchanter" Level="12" />
+	<Spell Name="Illusion: High Elf" Class="Enchanter" Level="12" />
+	<Spell Name="Kilan's Animation" Class="Enchanter" Level="12" />
+	<Spell Name="Languid Pace" Class="Enchanter" Level="12" />
+	<Spell Name="Memory Blur" Class="Enchanter" Level="12" />
+	<Spell Name="Mist" Class="Enchanter" Level="12" />
+	<Spell Name="Serpent Sight" Class="Enchanter" Level="12" />
+	<Spell Name="Thicken Mana" Class="Enchanter" Level="12" />
+	<Spell Name="Whirl Till You Hurl" Class="Enchanter" Level="12" />
+	<Spell Name="Breeze" Class="Enchanter" Level="16" />
+	<Spell Name="Chase the Moon" Class="Enchanter" Level="16" />
+	<Spell Name="Disempower" Class="Enchanter" Level="16" />
+	<Spell Name="Enchant: Electrum" Class="Enchanter" Level="16" />
+	<Spell Name="Enthrall" Class="Enchanter" Level="16" />
+	<Spell Name="Identify" Class="Enchanter" Level="16" />
+	<Spell Name="Illusion: Barbarian" Class="Enchanter" Level="16" />
+	<Spell Name="Illusion: Dwarf" Class="Enchanter" Level="16" />
+	<Spell Name="Illusion: Tree" Class="Enchanter" Level="16" />
+	<Spell Name="Invisibility versus Undead" Class="Enchanter" Level="16" />
+	<Spell Name="Levitate" Class="Enchanter" Level="16" />
+	<Spell Name="Mesmerization" Class="Enchanter" Level="16" />
+	<Spell Name="Quickness" Class="Enchanter" Level="16" />
+	<Spell Name="Rune I" Class="Enchanter" Level="16" />
+	<Spell Name="Sanity Warp" Class="Enchanter" Level="16" />
+	<Spell Name="Shalee's Animation" Class="Enchanter" Level="16" />
+	<Spell Name="Shielding" Class="Enchanter" Level="16" />
+	<Spell Name="Benevolence" Class="Enchanter" Level="20" />
+	<Spell Name="Berserker Strength" Class="Enchanter" Level="20" />
+	<Spell Name="Calm" Class="Enchanter" Level="20" />
+	<Spell Name="Cloud" Class="Enchanter" Level="20" />
+	<Spell Name="Color Shift" Class="Enchanter" Level="20" />
+	<Spell Name="Crystallize Mana" Class="Enchanter" Level="20" />
+	<Spell Name="Endure Magic" Class="Enchanter" Level="20" />
+	<Spell Name="Feckless Might" Class="Enchanter" Level="20" />
+	<Spell Name="Illusion: Iksar" Class="Enchanter" Level="20" />
+	<Spell Name="Illusion: Ogre" Class="Enchanter" Level="20" />
+	<Spell Name="Illusion: Troll" Class="Enchanter" Level="20" />
+	<Spell Name="Shifting Sight" Class="Enchanter" Level="20" />
+	<Spell Name="Sisna's Animation" Class="Enchanter" Level="20" />
+	<Spell Name="Sympathetic Aura" Class="Enchanter" Level="20" />
+	<Spell Name="Tashani" Class="Enchanter" Level="20" />
+	<Spell Name="Alacrity" Class="Enchanter" Level="24" />
+	<Spell Name="Beguile" Class="Enchanter" Level="24" />
+	<Spell Name="Chaos Flux" Class="Enchanter" Level="24" />
+	<Spell Name="Enchant: Gold" Class="Enchanter" Level="24" />
+	<Spell Name="Illusion: Earth Elemental" Class="Enchanter" Level="24" />
+	<Spell Name="Illusion: Skeleton" Class="Enchanter" Level="24" />
+	<Spell Name="Invigor" Class="Enchanter" Level="24" />
+	<Spell Name="Major Shielding" Class="Enchanter" Level="24" />
+	<Spell Name="Rune II" Class="Enchanter" Level="24" />
+	<Spell Name="Sagar's Animation" Class="Enchanter" Level="24" />
+	<Spell Name="Strip Enchantment" Class="Enchanter" Level="24" />
+	<Spell Name="Tepid Deeds" Class="Enchanter" Level="24" />
+	<Spell Name="Augmentation" Class="Enchanter" Level="29" />
+	<Spell Name="Clarify Mana" Class="Enchanter" Level="29" />
+	<Spell Name="Clarity" Class="Enchanter" Level="29" />
+	<Spell Name="Curse of the Simple Mind" Class="Enchanter" Level="29" />
+	<Spell Name="Dyn's Dizzying Draught" Class="Enchanter" Level="29" />
+	<Spell Name="Enstill" Class="Enchanter" Level="29" />
+	<Spell Name="Feedback" Class="Enchanter" Level="29" />
+	<Spell Name="Illusion: Air Elemental" Class="Enchanter" Level="29" />
+	<Spell Name="Illusion: Water Elemental" Class="Enchanter" Level="29" />
+	<Spell Name="Listless Power" Class="Enchanter" Level="29" />
+	<Spell Name="Nullify Magic" Class="Enchanter" Level="29" />
+	<Spell Name="Obscure" Class="Enchanter" Level="29" />
+	<Spell Name="Suffocate" Class="Enchanter" Level="29" />
+	<Spell Name="Uleen's Animation" Class="Enchanter" Level="29" />
+	<Spell Name="Ultravision" Class="Enchanter" Level="29" />
+	<Spell Name="Anarchy" Class="Enchanter" Level="34" />
+	<Spell Name="Boltran's Animation" Class="Enchanter" Level="34" />
+	<Spell Name="Cast Sight" Class="Enchanter" Level="34" />
+	<Spell Name="Enchant: Platinum" Class="Enchanter" Level="34" />
+	<Spell Name="Entrance" Class="Enchanter" Level="34" />
+	<Spell Name="Gift of Magic" Class="Enchanter" Level="34" />
+	<Spell Name="Greater Shielding" Class="Enchanter" Level="34" />
+	<Spell Name="Illusion: Fire Elemental" Class="Enchanter" Level="34" />
+	<Spell Name="Insipid Weakness" Class="Enchanter" Level="34" />
+	<Spell Name="Mana Sieve" Class="Enchanter" Level="34" />
+	<Spell Name="Radiant Visage" Class="Enchanter" Level="34" />
+	<Spell Name="Rune III" Class="Enchanter" Level="34" />
+	<Spell Name="Aanya's Animation" Class="Enchanter" Level="39" />
+	<Spell Name="Cajoling Whispers" Class="Enchanter" Level="39" />
+	<Spell Name="Celerity" Class="Enchanter" Level="39" />
+	<Spell Name="Distill Mana" Class="Enchanter" Level="39" />
+	<Spell Name="Gravity Flux" Class="Enchanter" Level="39" />
+	<Spell Name="Illusion: Drybone" Class="Enchanter" Level="39" />
+	<Spell Name="Illusion: Spirit Wolf" Class="Enchanter" Level="39" />
+	<Spell Name="Immobilize" Class="Enchanter" Level="39" />
+	<Spell Name="Insight" Class="Enchanter" Level="39" />
+	<Spell Name="Invoke Fear" Class="Enchanter" Level="39" />
+	<Spell Name="Mind Wipe" Class="Enchanter" Level="39" />
+	<Spell Name="Pacify" Class="Enchanter" Level="39" />
+	<Spell Name="Rampage" Class="Enchanter" Level="39" />
+	<Spell Name="Resist Magic" Class="Enchanter" Level="39" />
+	<Spell Name="Shade" Class="Enchanter" Level="39" />
+	<Spell Name="Wandering Mind" Class="Enchanter" Level="39" />
+	<Spell Name="Arch Shielding" Class="Enchanter" Level="44" />
+	<Spell Name="Boon of the Garou" Class="Enchanter" Level="44" />
+	<Spell Name="Brilliance" Class="Enchanter" Level="44" />
+	<Spell Name="Color Skew" Class="Enchanter" Level="44" />
+	<Spell Name="Discordant Mind" Class="Enchanter" Level="44" />
+	<Spell Name="Enchant: Velium" Class="Enchanter" Level="44" />
+	<Spell Name="Extinguish Fatigue" Class="Enchanter" Level="44" />
+	<Spell Name="Illusion: Werewolf" Class="Enchanter" Level="44" />
+	<Spell Name="Incapacitate" Class="Enchanter" Level="44" />
+	<Spell Name="Pillage Enchantment" Class="Enchanter" Level="44" />
+	<Spell Name="Rune IV" Class="Enchanter" Level="44" />
+	<Spell Name="Shiftless Deeds" Class="Enchanter" Level="44" />
+	<Spell Name="Summon Companion" Class="Enchanter" Level="44" />
+	<Spell Name="Tashania" Class="Enchanter" Level="44" />
+	<Spell Name="Weakness" Class="Enchanter" Level="44" />
+	<Spell Name="Yegoreff's Animation" Class="Enchanter" Level="44" />
+	<Spell Name="Adorning Grace" Class="Enchanter" Level="49" />
+	<Spell Name="Allure" Class="Enchanter" Level="49" />
+	<Spell Name="Berserker Spirit" Class="Enchanter" Level="49" />
+	<Spell Name="Blanket of Forgetfulness" Class="Enchanter" Level="49" />
+	<Spell Name="Dazzle" Class="Enchanter" Level="49" />
+	<Spell Name="Enchant: Adamantite" Class="Enchanter" Level="49" />
+	<Spell Name="Enchant Brellium" Class="Enchanter" Level="49" />
+	<Spell Name="Enchant Mithril" Class="Enchanter" Level="49" />
+	<Spell Name="Enchant Steel" Class="Enchanter" Level="49" />
+	<Spell Name="Gasping Embrace" Class="Enchanter" Level="49" />
+	<Spell Name="Group Resist Magic" Class="Enchanter" Level="49" />
+	<Spell Name="Kintaz's Animation" Class="Enchanter" Level="49" />
+	<Spell Name="Paralyzing Earth" Class="Enchanter" Level="49" />
+	<Spell Name="Purify Mana" Class="Enchanter" Level="49" />
+	<Spell Name="Reoccurring Amnesia" Class="Enchanter" Level="49" />
+	<Spell Name="Shadow" Class="Enchanter" Level="49" />
+	<Spell Name="Swift Like The Wind" Class="Enchanter" Level="49" />
+	<Spell Name="Improved Invisibility" Class="Enchanter" Level="50" />
+	<Spell Name="Collaboration" Class="Enchanter" Level="51" />
+	<Spell Name="Theft of Thought" Class="Enchanter" Level="51" />
+	<Spell Name="Wake of Tranquility" Class="Enchanter" Level="51" />
+	<Spell Name="Boon of the Clear Mind" Class="Enchanter" Level="52" />
+	<Spell Name="Color Slant" Class="Enchanter" Level="52" />
+	<Spell Name="Fascination" Class="Enchanter" Level="52" />
+	<Spell Name="Rune V" Class="Enchanter" Level="52" />
+	<Spell Name="Aanya's Quickening" Class="Enchanter" Level="53" />
+	<Spell Name="Boltran's Agacerie" Class="Enchanter" Level="53" />
+	<Spell Name="Cripple" Class="Enchanter" Level="53" />
+	<Spell Name="Recant Magic" Class="Enchanter" Level="53" />
+	<Spell Name="Clarity II" Class="Enchanter" Level="54" />
+	<Spell Name="Dementia" Class="Enchanter" Level="54" />
+	<Spell Name="Glamour of Kintaz" Class="Enchanter" Level="54" />
+	<Spell Name="Shield of the Magi" Class="Enchanter" Level="54" />
+	<Spell Name="Gift of Insight" Class="Enchanter" Level="55" />
+	<Spell Name="Largarn's Lamentation" Class="Enchanter" Level="55" />
+	<Spell Name="Memory Flux" Class="Enchanter" Level="55" />
+	<Spell Name="Wind of Tishani" Class="Enchanter" Level="55" />
+	<Spell Name="Zumaik's Animation" Class="Enchanter" Level="55" />
+	<Spell Name="Augment" Class="Enchanter" Level="56" />
+	<Spell Name="Overwhelming Splendor" Class="Enchanter" Level="56" />
+	<Spell Name="Torment of Argli" Class="Enchanter" Level="56" />
+	<Spell Name="Trepidation" Class="Enchanter" Level="56" />
+	<Spell Name="Enlightenment" Class="Enchanter" Level="57" />
+	<Spell Name="Forlorn Deeds" Class="Enchanter" Level="57" />
+	<Spell Name="Tashanian" Class="Enchanter" Level="57" />
+	<Spell Name="Umbra" Class="Enchanter" Level="57" />
+	<Spell Name="Bedlam" Class="Enchanter" Level="58" />
+	<Spell Name="Fetter" Class="Enchanter" Level="58" />
+	<Spell Name="Wonderous Rapidity" Class="Enchanter" Level="58" />
+	<Spell Name="Asphyxiate" Class="Enchanter" Level="59" />
+	<Spell Name="Gift of Pure Thought" Class="Enchanter" Level="59" />
+	<Spell Name="Rapture" Class="Enchanter" Level="59" />
+	<Spell Name="Dictate" Class="Enchanter" Level="60" />
+	<Spell Name="Gift of Brilliance" Class="Enchanter" Level="60" />
+	<Spell Name="Visions of Grandeur" Class="Enchanter" Level="60" />
+	<Spell Name="Wind of Tishanian" Class="Enchanter" Level="60" />
+	
+	
+	
+	<Spell Name="Burst of Flame" Class="Magician" Level="1" />
+	<Spell Name="Flare" Class="Magician" Level="1" />
+	<Spell Name="Minor Shielding" Class="Magician" Level="1" />
+	<Spell Name="Reclaim Energy" Class="Magician" Level="1" />
+	<Spell Name="Summon Dagger" Class="Magician" Level="1" />
+	<Spell Name="Summon Drink" Class="Magician" Level="1" />
+	<Spell Name="Summon Food" Class="Magician" Level="1" />
+	<Spell Name="True North" Class="Magician" Level="1" />
+	<Spell Name="Burn" Class="Magician" Level="4" />
+	<Spell Name="Elementalkin: Air" Class="Magician" Level="4" />
+	<Spell Name="Elementalkin: Earth" Class="Magician" Level="4" />
+	<Spell Name="Elementalkin: Fire" Class="Magician" Level="4" />
+	<Spell Name="Elementalkin: Water" Class="Magician" Level="4" />
+	<Spell Name="Fire Flux" Class="Magician" Level="4" />
+	<Spell Name="Gate" Class="Magician" Level="4" />
+	<Spell Name="Sense Summoned" Class="Magician" Level="4" />
+	<Spell Name="Summon Bandages" Class="Magician" Level="4" />
+	<Spell Name="Summon Wisp" Class="Magician" Level="4" />
+	<Spell Name="Dimensional Pocket" Class="Magician" Level="8" />
+	<Spell Name="Elementaling: Air" Class="Magician" Level="8" />
+	<Spell Name="Elementaling: Earth" Class="Magician" Level="8" />
+	<Spell Name="Elementaling: Fire" Class="Magician" Level="8" />
+	<Spell Name="Elementaling: Water" Class="Magician" Level="8" />
+	<Spell Name="Eye of Zomm" Class="Magician" Level="8" />
+	<Spell Name="Flame Bolt" Class="Magician" Level="8" />
+	<Spell Name="Invisibility" Class="Magician" Level="8" />
+	<Spell Name="Lesser Shielding" Class="Magician" Level="8" />
+	<Spell Name="Renew Elements" Class="Magician" Level="8" />
+	<Spell Name="Shield of Fire" Class="Magician" Level="8" />
+	<Spell Name="Shock of Blades" Class="Magician" Level="8" />
+	<Spell Name="Staff of Tracing" Class="Magician" Level="8" />
+	<Spell Name="Bind Affinity" Class="Magician" Level="12" />
+	<Spell Name="Burnout" Class="Magician" Level="12" />
+	<Spell Name="Cancel Magic" Class="Magician" Level="12" />
+	<Spell Name="Column of Fire" Class="Magician" Level="12" />
+	<Spell Name="Elemental: Air" Class="Magician" Level="12" />
+	<Spell Name="Elemental: Earth" Class="Magician" Level="12" />
+	<Spell Name="Elemental: Fire" Class="Magician" Level="12" />
+	<Spell Name="Elemental: Water" Class="Magician" Level="12" />
+	<Spell Name="Rain of Blades" Class="Magician" Level="12" />
+	<Spell Name="Summon Fang" Class="Magician" Level="12" />
+	<Spell Name="Ward Summoned" Class="Magician" Level="12" />
+	<Spell Name="Identify" Class="Magician" Level="16" />
+	<Spell Name="Minor Summoning: Air" Class="Magician" Level="16" />
+	<Spell Name="Minor Summoning: Earth" Class="Magician" Level="16" />
+	<Spell Name="Minor Summoning: Fire" Class="Magician" Level="16" />
+	<Spell Name="Minor Summoning: Water" Class="Magician" Level="16" />
+	<Spell Name="Phantom Leather" Class="Magician" Level="16" />
+	<Spell Name="See Invisible" Class="Magician" Level="16" />
+	<Spell Name="Shielding" Class="Magician" Level="16" />
+	<Spell Name="Shock of Flame" Class="Magician" Level="16" />
+	<Spell Name="Staff of Warding" Class="Magician" Level="16" />
+	<Spell Name="Summon Heatstone" Class="Magician" Level="16" />
+	<Spell Name="Summon Throwing Dagger" Class="Magician" Level="16" />
+	<Spell Name="Bolt of Flame" Class="Magician" Level="20" />
+	<Spell Name="Elemental Shield" Class="Magician" Level="20" />
+	<Spell Name="Expulse Summoned" Class="Magician" Level="20" />
+	<Spell Name="Lesser Summoning: Air" Class="Magician" Level="20" />
+	<Spell Name="Lesser Summoning: Earth" Class="Magician" Level="20" />
+	<Spell Name="Lesser Summoning: Fire" Class="Magician" Level="20" />
+	<Spell Name="Lesser Summoning: Water" Class="Magician" Level="20" />
+	<Spell Name="Rain of Fire" Class="Magician" Level="20" />
+	<Spell Name="Renew Summoning" Class="Magician" Level="20" />
+	<Spell Name="Shield of Flame" Class="Magician" Level="20" />
+	<Spell Name="Spear of Warding" Class="Magician" Level="20" />
+	<Spell Name="Summon Arrows" Class="Magician" Level="20" />
+	<Spell Name="Summon Waterstone" Class="Magician" Level="20" />
+	<Spell Name="Cornucopia" Class="Magician" Level="24" />
+	<Spell Name="Everfount" Class="Magician" Level="24" />
+	<Spell Name="Flame Flux" Class="Magician" Level="24" />
+	<Spell Name="Major Shielding" Class="Magician" Level="24" />
+	<Spell Name="Malaise" Class="Magician" Level="24" />
+	<Spell Name="Shock of Spikes" Class="Magician" Level="24" />
+	<Spell Name="Staff of Runes" Class="Magician" Level="24" />
+	<Spell Name="Summoning: Air" Class="Magician" Level="24" />
+	<Spell Name="Summoning: Earth" Class="Magician" Level="24" />
+	<Spell Name="Summoning: Fire" Class="Magician" Level="24" />
+	<Spell Name="Summoning: Water" Class="Magician" Level="24" />
+	<Spell Name="Burnout II" Class="Magician" Level="29" />
+	<Spell Name="Dismiss Summoned" Class="Magician" Level="29" />
+	<Spell Name="Expedience" Class="Magician" Level="29" />
+	<Spell Name="Greater Summoning: Air" Class="Magician" Level="29" />
+	<Spell Name="Greater Summoning: Earth" Class="Magician" Level="29" />
+	<Spell Name="Greater Summoning: Fire" Class="Magician" Level="29" />
+	<Spell Name="Greater Summoning: Water" Class="Magician" Level="29" />
+	<Spell Name="Inferno Shield" Class="Magician" Level="29" />
+	<Spell Name="Phantom Chain" Class="Magician" Level="29" />
+	<Spell Name="Rain of Spikes" Class="Magician" Level="29" />
+	<Spell Name="Summon Coldstone" Class="Magician" Level="29" />
+	<Spell Name="Sword of Runes" Class="Magician" Level="29" />
+	<Spell Name="Blaze" Class="Magician" Level="34" />
+	<Spell Name="Cinder Bolt" Class="Magician" Level="34" />
+	<Spell Name="Dimensional Hole" Class="Magician" Level="34" />
+	<Spell Name="Greater Shielding" Class="Magician" Level="34" />
+	<Spell Name="Minor Conjuration: Air" Class="Magician" Level="34" />
+	<Spell Name="Minor Conjuration: Earth" Class="Magician" Level="34" />
+	<Spell Name="Minor Conjuration: Fire" Class="Magician" Level="34" />
+	<Spell Name="Minor Conjuration: Water" Class="Magician" Level="34" />
+	<Spell Name="Monster Summoning I" Class="Magician" Level="34" />
+	<Spell Name="Nullify Magic" Class="Magician" Level="34" />
+	<Spell Name="Staff of Symbols" Class="Magician" Level="34" />
+	<Spell Name="Summon Shard of the Core" Class="Magician" Level="34" />
+	<Spell Name="Barrier of Combustion" Class="Magician" Level="39" />
+	<Spell Name="Dagger of Symbols" Class="Magician" Level="39" />
+	<Spell Name="Expel Summoned" Class="Magician" Level="39" />
+	<Spell Name="Flame Arc" Class="Magician" Level="39" />
+	<Spell Name="Lesser Conjuration: Air" Class="Magician" Level="39" />
+	<Spell Name="Lesser Conjuration: Earth" Class="Magician" Level="39" />
+	<Spell Name="Lesser Conjuration: Fire" Class="Magician" Level="39" />
+	<Spell Name="Lesser Conjuration: Water" Class="Magician" Level="39" />
+	<Spell Name="Rain of Lava" Class="Magician" Level="39" />
+	<Spell Name="Summon Companion" Class="Magician" Level="39" />
+	<Spell Name="Summon Ring of Flight" Class="Magician" Level="39" />
+	<Spell Name="Arch Shielding" Class="Magician" Level="44" />
+	<Spell Name="Conjuration: Air" Class="Magician" Level="44" />
+	<Spell Name="Conjuration: Earth" Class="Magician" Level="44" />
+	<Spell Name="Conjuration: Fire" Class="Magician" Level="44" />
+	<Spell Name="Conjuration: Water" Class="Magician" Level="44" />
+	<Spell Name="Elemental Armor" Class="Magician" Level="44" />
+	<Spell Name="Elemental Maelstrom" Class="Magician" Level="44" />
+	<Spell Name="Malaisement" Class="Magician" Level="44" />
+	<Spell Name="Modulating Rod" Class="Magician" Level="44" />
+	<Spell Name="Phantom Plate" Class="Magician" Level="44" />
+	<Spell Name="Shock of Swords" Class="Magician" Level="44" />
+	<Spell Name="Summon Orb" Class="Magician" Level="46" />
+	<Spell Name="Banish Summoned" Class="Magician" Level="49" />
+	<Spell Name="Burnout III" Class="Magician" Level="49" />
+	<Spell Name="Greater Conjuration: Air" Class="Magician" Level="49" />
+	<Spell Name="Greater Conjuration: Earth" Class="Magician" Level="49" />
+	<Spell Name="Greater Conjuration: Fire" Class="Magician" Level="49" />
+	<Spell Name="Greater Conjuration: Water" Class="Magician" Level="49" />
+	<Spell Name="Lava Bolt" Class="Magician" Level="49" />
+	<Spell Name="Rain of Swords" Class="Magician" Level="49" />
+	<Spell Name="Shield of Lava" Class="Magician" Level="49" />
+	<Spell Name="Monster Summoning II" Class="Magician" Level="50" />
+	<Spell Name="Gift of Xev" Class="Magician" Level="51" />
+	<Spell Name="Malosi" Class="Magician" Level="51" />
+	<Spell Name="Scintillation" Class="Magician" Level="51" />
+	<Spell Name="Vocarate: Earth" Class="Magician" Level="51" />
+	<Spell Name="Bristlebane's Bundle" Class="Magician" Level="52" />
+	<Spell Name="Char" Class="Magician" Level="52" />
+	<Spell Name="Phantom Armor" Class="Magician" Level="52" />
+	<Spell Name="Vocarate: Fire (Earth)" Class="Magician" Level="52" />
+	<Spell Name="Annul Magic" Class="Magician" Level="53" />
+	<Spell Name="Boon of Immolation" Class="Magician" Level="53" />
+	<Spell Name="Quiver of Marr" Class="Magician" Level="53" />
+	<Spell Name="Vocarate: Air" Class="Magician" Level="53" />
+	<Spell Name="Bandoleer of Luclin" Class="Magician" Level="54" />
+	<Spell Name="Scars of Sigil" Class="Magician" Level="54" />
+	<Spell Name="Shield of the Magi" Class="Magician" Level="54" />
+	<Spell Name="Vocarate: Water" Class="Magician" Level="54" />
+	<Spell Name="Burnout IV" Class="Magician" Level="55" />
+	<Spell Name="Call of the Hero" Class="Magician" Level="55" />
+	<Spell Name="Pouch of Quellious" Class="Magician" Level="55" />
+	<Spell Name="Rage of Zomm" Class="Magician" Level="55" />
+	<Spell Name="Sirocco" Class="Magician" Level="55" />
+	<Spell Name="Wrath of the Elements" Class="Magician" Level="55" />
+	<Spell Name="Cadeau of Flame" Class="Magician" Level="56" />
+	<Spell Name="Dyzil's Deafening Decoy" Class="Magician" Level="56" />
+	<Spell Name="Exile Summoned" Class="Magician" Level="56" />
+	<Spell Name="Muzzle of Mardu" Class="Magician" Level="56" />
+	<Spell Name="Eye of Tallon" Class="Magician" Level="57" />
+	<Spell Name="Greater Vocaration: Earth" Class="Magician" Level="57" />
+	<Spell Name="Shock of Steel" Class="Magician" Level="57" />
+	<Spell Name="Greater Vocaration: Fire" Class="Magician" Level="58" />
+	<Spell Name="Malosini" Class="Magician" Level="58" />
+	<Spell Name="Velocity" Class="Magician" Level="58" />
+	<Spell Name="Greater Vocaration: Air" Class="Magician" Level="59" />
+	<Spell Name="Manastorm" Class="Magician" Level="59" />
+	<Spell Name="Seeking Flame of Seukor" Class="Magician" Level="59" />
+	<Spell Name="Valiant Companion" Class="Magician" Level="59" />
+	<Spell Name="Aegis of Ro" Class="Magician" Level="60" />
+	<Spell Name="Banishment" Class="Magician" Level="60" />
+	<Spell Name="Greater Vocaration: Water" Class="Magician" Level="60" />
+	<Spell Name="Mala" Class="Magician" Level="60" />
+	<Spell Name="Monster Summoning III" Class="Magician" Level="60" />
+	
+	
+	
+	<Spell Name="Cavorting Bones" Class="Necromancer" Level="1" />
+	<Spell Name="Coldlight" Class="Necromancer" Level="1" />
+	<Spell Name="Disease Cloud" Class="Necromancer" Level="1" />
+	<Spell Name="Invisibility versus Undead" Class="Necromancer" Level="1" />
+	<Spell Name="Lifetap" Class="Necromancer" Level="1" />
+	<Spell Name="Locate Corpse" Class="Necromancer" Level="1" />
+	<Spell Name="Minor Shielding" Class="Necromancer" Level="1" />
+	<Spell Name="Reclaim Energy" Class="Necromancer" Level="1" />
+	<Spell Name="Sense the Dead" Class="Necromancer" Level="1" />
+	<Spell Name="Siphon Strength" Class="Necromancer" Level="1" />
+	<Spell Name="Clinging Darkness" Class="Necromancer" Level="4" />
+	<Spell Name="Endure Cold" Class="Necromancer" Level="4" />
+	<Spell Name="Fear" Class="Necromancer" Level="4" />
+	<Spell Name="Gate" Class="Necromancer" Level="4" />
+	<Spell Name="Grim Aura" Class="Necromancer" Level="4" />
+	<Spell Name="Leering Corpse" Class="Necromancer" Level="4" />
+	<Spell Name="Lifespike" Class="Necromancer" Level="4" />
+	<Spell Name="Numb the Dead" Class="Necromancer" Level="4" />
+	<Spell Name="Poison Bolt" Class="Necromancer" Level="4" />
+	<Spell Name="True North" Class="Necromancer" Level="4" />
+	<Spell Name="Bone Walk" Class="Necromancer" Level="8" />
+	<Spell Name="Dark Empathy" Class="Necromancer" Level="8" />
+	<Spell Name="Dark Pact" Class="Necromancer" Level="8" />
+	<Spell Name="Deadeye" Class="Necromancer" Level="8" />
+	<Spell Name="Gather Shadows" Class="Necromancer" Level="8" />
+	<Spell Name="Impart Strength" Class="Necromancer" Level="8" />
+	<Spell Name="Lesser Shielding" Class="Necromancer" Level="8" />
+	<Spell Name="Mend Bones" Class="Necromancer" Level="8" />
+	<Spell Name="Shadow Step" Class="Necromancer" Level="8" />
+	<Spell Name="Vampiric Embrace" Class="Necromancer" Level="8" />
+	<Spell Name="Ward Undead" Class="Necromancer" Level="8" />
+	<Spell Name="Bind Affinity" Class="Necromancer" Level="12" />
+	<Spell Name="Convoke Shadow" Class="Necromancer" Level="12" />
+	<Spell Name="Endure Disease" Class="Necromancer" Level="12" />
+	<Spell Name="Engulfing Darkness" Class="Necromancer" Level="12" />
+	<Spell Name="Heat Blood" Class="Necromancer" Level="12" />
+	<Spell Name="Leach" Class="Necromancer" Level="12" />
+	<Spell Name="Lifedraw" Class="Necromancer" Level="12" />
+	<Spell Name="Scent of Dusk" Class="Necromancer" Level="12" />
+	<Spell Name="Sight Graft" Class="Necromancer" Level="12" />
+	<Spell Name="Spook the Dead" Class="Necromancer" Level="12" />
+	<Spell Name="Wave of Enfeeblement" Class="Necromancer" Level="12" />
+	<Spell Name="Banshee Aura" Class="Necromancer" Level="16" />
+	<Spell Name="Cancel Magic" Class="Necromancer" Level="16" />
+	<Spell Name="Cure Disease" Class="Necromancer" Level="16" />
+	<Spell Name="Feign Death" Class="Necromancer" Level="16" />
+	<Spell Name="Heart Flutter" Class="Necromancer" Level="16" />
+	<Spell Name="Hungry Earth" Class="Necromancer" Level="16" />
+	<Spell Name="Infectious Cloud" Class="Necromancer" Level="16" />
+	<Spell Name="Restless Bones" Class="Necromancer" Level="16" />
+	<Spell Name="Shielding" Class="Necromancer" Level="16" />
+	<Spell Name="Shieldskin" Class="Necromancer" Level="16" />
+	<Spell Name="Spirit Armor" Class="Necromancer" Level="16" />
+	<Spell Name="Voice Graft" Class="Necromancer" Level="16" />
+	<Spell Name="Allure of Death" Class="Necromancer" Level="20" />
+	<Spell Name="Animate Dead" Class="Necromancer" Level="20" />
+	<Spell Name="Dominate Undead" Class="Necromancer" Level="20" />
+	<Spell Name="Expulse Undead" Class="Necromancer" Level="20" />
+	<Spell Name="Harmshield" Class="Necromancer" Level="20" />
+	<Spell Name="Identify" Class="Necromancer" Level="20" />
+	<Spell Name="Shadow Compact" Class="Necromancer" Level="20" />
+	<Spell Name="Shadow Vortex" Class="Necromancer" Level="20" />
+	<Spell Name="Siphon Life" Class="Necromancer" Level="20" />
+	<Spell Name="Track Corpse" Class="Necromancer" Level="20" />
+	<Spell Name="Word of Shadow" Class="Necromancer" Level="20" />
+	<Spell Name="Breath of the Dead" Class="Necromancer" Level="24" />
+	<Spell Name="Haunting Corpse" Class="Necromancer" Level="24" />
+	<Spell Name="Intensify Death" Class="Necromancer" Level="24" />
+	<Spell Name="Leatherskin" Class="Necromancer" Level="24" />
+	<Spell Name="Major Shielding" Class="Necromancer" Level="24" />
+	<Spell Name="Rapacious Subvention" Class="Necromancer" Level="24" />
+	<Spell Name="Resist Cold" Class="Necromancer" Level="24" />
+	<Spell Name="Rest the Dead" Class="Necromancer" Level="24" />
+	<Spell Name="Scent of Shadow" Class="Necromancer" Level="24" />
+	<Spell Name="Screaming Terror" Class="Necromancer" Level="24" />
+	<Spell Name="Shadow Sight" Class="Necromancer" Level="24" />
+	<Spell Name="Shock of Poison" Class="Necromancer" Level="24" />
+	<Spell Name="Boil Blood" Class="Necromancer" Level="29" />
+	<Spell Name="Dismiss Undead" Class="Necromancer" Level="29" />
+	<Spell Name="Dooming Darkness" Class="Necromancer" Level="29" />
+	<Spell Name="Panic the Dead" Class="Necromancer" Level="29" />
+	<Spell Name="Renew Bones" Class="Necromancer" Level="29" />
+	<Spell Name="Spirit Tap" Class="Necromancer" Level="29" />
+	<Spell Name="Summon Dead" Class="Necromancer" Level="29" />
+	<Spell Name="Vampiric Curse" Class="Necromancer" Level="29" />
+	<Spell Name="Word of Spirit" Class="Necromancer" Level="29" />
+	<Spell Name="Beguile Undead" Class="Necromancer" Level="34" />
+	<Spell Name="Call of Bones" Class="Necromancer" Level="34" />
+	<Spell Name="Greater Shielding" Class="Necromancer" Level="34" />
+	<Spell Name="Invoke Fear" Class="Necromancer" Level="34" />
+	<Spell Name="Invoke Shadow" Class="Necromancer" Level="34" />
+	<Spell Name="Resist Disease" Class="Necromancer" Level="34" />
+	<Spell Name="Root" Class="Necromancer" Level="34" />
+	<Spell Name="Steelskin" Class="Necromancer" Level="34" />
+	<Spell Name="Surge of Enfeeblement" Class="Necromancer" Level="34" />
+	<Spell Name="Torbas' Acid Blast" Class="Necromancer" Level="34" />
+	<Spell Name="Venom of the Snake" Class="Necromancer" Level="34" />
+	<Spell Name="Augment Death" Class="Necromancer" Level="39" />
+	<Spell Name="Chilling Embrace" Class="Necromancer" Level="39" />
+	<Spell Name="Counteract Disease" Class="Necromancer" Level="39" />
+	<Spell Name="Drain Spirit" Class="Necromancer" Level="39" />
+	<Spell Name="Expel Undead" Class="Necromancer" Level="39" />
+	<Spell Name="Malignant Dead" Class="Necromancer" Level="39" />
+	<Spell Name="Nullify Magic" Class="Necromancer" Level="39" />
+	<Spell Name="Scent of Darkness" Class="Necromancer" Level="39" />
+	<Spell Name="Scourge" Class="Necromancer" Level="39" />
+	<Spell Name="Summon Corpse" Class="Necromancer" Level="39" />
+	<Spell Name="Word of Souls" Class="Necromancer" Level="39" />
+	<Spell Name="Arch Shielding" Class="Necromancer" Level="44" />
+	<Spell Name="Asystole" Class="Necromancer" Level="44" />
+	<Spell Name="Cackling Bones" Class="Necromancer" Level="44" />
+	<Spell Name="Corporeal Empathy" Class="Necromancer" Level="44" />
+	<Spell Name="Covetous Subversion" Class="Necromancer" Level="44" />
+	<Spell Name="Dead Man Floating" Class="Necromancer" Level="44" />
+	<Spell Name="Diamondskin" Class="Necromancer" Level="44" />
+	<Spell Name="Ignite Bones" Class="Necromancer" Level="44" />
+	<Spell Name="Incinerate Bones" Class="Necromancer" Level="44" />
+	<Spell Name="Pact of Shadow" Class="Necromancer" Level="44" />
+	<Spell Name="Summon Companion" Class="Necromancer" Level="44" />
+	<Spell Name="Banish Undead" Class="Necromancer" Level="49" />
+	<Spell Name="Bond of Death" Class="Necromancer" Level="49" />
+	<Spell Name="Cajole Undead" Class="Necromancer" Level="49" />
+	<Spell Name="Cascading Darkness" Class="Necromancer" Level="49" />
+	<Spell Name="Dead Men Floating" Class="Necromancer" Level="49" />
+	<Spell Name="Drain Soul" Class="Necromancer" Level="49" />
+	<Spell Name="Ignite Blood" Class="Necromancer" Level="49" />
+	<Spell Name="Invoke Death" Class="Necromancer" Level="49" />
+	<Spell Name="Lich" Class="Necromancer" Level="49" />
+	<Spell Name="Paralyzing Earth" Class="Necromancer" Level="49" />
+	<Spell Name="Improved Invis to Undead" Class="Necromancer" Level="50" />
+	<Spell Name="Dread of Night" Class="Necromancer" Level="51" />
+	<Spell Name="Envenomed Bolt" Class="Necromancer" Level="51" />
+	<Spell Name="Sacrifice" Class="Necromancer" Level="51" />
+	<Spell Name="Splurt" Class="Necromancer" Level="51" />
+	<Spell Name="Defoliation" Class="Necromancer" Level="52" />
+	<Spell Name="Manaskin" Class="Necromancer" Level="52" />
+	<Spell Name="Plague" Class="Necromancer" Level="52" />
+	<Spell Name="Scent of Terris" Class="Necromancer" Level="52" />
+	<Spell Name="Annul Magic" Class="Necromancer" Level="53" />
+	<Spell Name="Convergence" Class="Necromancer" Level="53" />
+	<Spell Name="Enstill" Class="Necromancer" Level="53" />
+	<Spell Name="Minion of Shadows" Class="Necromancer" Level="53" />
+	<Spell Name="Deflux" Class="Necromancer" Level="54" />
+	<Spell Name="Shadowbond" Class="Necromancer" Level="54" />
+	<Spell Name="Shield of the Magi" Class="Necromancer" Level="54" />
+	<Spell Name="Thrall of Bones" Class="Necromancer" Level="54" />
+	<Spell Name="Augmentation of Death" Class="Necromancer" Level="55" />
+	<Spell Name="Chill Bones" Class="Necromancer" Level="55" />
+	<Spell Name="Conglaciation of Bone" Class="Necromancer" Level="55" />
+	<Spell Name="Infusion" Class="Necromancer" Level="55" />
+	<Spell Name="Levant" Class="Necromancer" Level="55" />
+	<Spell Name="Skin of the Shadow" Class="Necromancer" Level="55" />
+	<Spell Name="Cessation of Cor" Class="Necromancer" Level="56" />
+	<Spell Name="Sedulous Subversion" Class="Necromancer" Level="56" />
+	<Spell Name="Servant of Bones" Class="Necromancer" Level="56" />
+	<Spell Name="Trepidation" Class="Necromancer" Level="56" />
+	<Spell Name="Conjure Corpse" Class="Necromancer" Level="57" />
+	<Spell Name="Exile Undead" Class="Necromancer" Level="57" />
+	<Spell Name="Vexing Mordinia" Class="Necromancer" Level="57" />
+	<Spell Name="Immobilize" Class="Necromancer" Level="58" />
+	<Spell Name="Pyrocruor" Class="Necromancer" Level="58" />
+	<Spell Name="Quivering Veil of Xarn" Class="Necromancer" Level="58" />
+	<Spell Name="Devouring Darkness" Class="Necromancer" Level="59" />
+	<Spell Name="Emissary of Thule" Class="Necromancer" Level="59" />
+	<Spell Name="Touch of Night" Class="Necromancer" Level="59" />
+	<Spell Name="Arch Lich" Class="Necromancer" Level="60" />
+	<Spell Name="Banishment of Shadows" Class="Necromancer" Level="60" />
+	<Spell Name="Demi Lich" Class="Necromancer" Level="60" />
+	<Spell Name="Enslave Death" Class="Necromancer" Level="60" />
+	<Spell Name="Gangrenous Touch of Zum'uul" Class="Necromancer" Level="60" />
+	<Spell Name="Trucidation" Class="Necromancer" Level="60" />
+	
+	
+	
+	<Spell Name="Courage" Class="Paladin" Level="9" />
+	<Spell Name="Cure Poison" Class="Paladin" Level="9" />
+	<Spell Name="Flash of Light" Class="Paladin" Level="9" />
+	<Spell Name="Minor Healing" Class="Paladin" Level="9" />
+	<Spell Name="Spook the Dead" Class="Paladin" Level="9" />
+	<Spell Name="True North" Class="Paladin" Level="9" />
+	<Spell Name="Yaulp" Class="Paladin" Level="9" />
+	<Spell Name="Cure Disease" Class="Paladin" Level="15" />
+	<Spell Name="Hammer of Wrath" Class="Paladin" Level="15" />
+	<Spell Name="Holy Armor" Class="Paladin" Level="15" />
+	<Spell Name="Light Healing" Class="Paladin" Level="15" />
+	<Spell Name="Lull" Class="Paladin" Level="15" />
+	<Spell Name="Sense the Dead" Class="Paladin" Level="15" />
+	<Spell Name="Ward Undead" Class="Paladin" Level="15" />
+	<Spell Name="Center" Class="Paladin" Level="22" />
+	<Spell Name="Endure Poison" Class="Paladin" Level="22" />
+	<Spell Name="Halo of Light" Class="Paladin" Level="22" />
+	<Spell Name="Invigor" Class="Paladin" Level="22" />
+	<Spell Name="Invisibility versus Undead" Class="Paladin" Level="22" />
+	<Spell Name="Reckless Strength" Class="Paladin" Level="22" />
+	<Spell Name="Root" Class="Paladin" Level="22" />
+	<Spell Name="Endure Magic" Class="Paladin" Level="30" />
+	<Spell Name="Expulse Undead" Class="Paladin" Level="30" />
+	<Spell Name="Hammer of Striking" Class="Paladin" Level="30" />
+	<Spell Name="Healing" Class="Paladin" Level="30" />
+	<Spell Name="Soothe" Class="Paladin" Level="30" />
+	<Spell Name="Spirit Armor" Class="Paladin" Level="30" />
+	<Spell Name="Stun" Class="Paladin" Level="30" />
+	<Spell Name="Symbol of Transal" Class="Paladin" Level="30" />
+	<Spell Name="Cancel Magic" Class="Paladin" Level="39" />
+	<Spell Name="Counteract Poison" Class="Paladin" Level="39" />
+	<Spell Name="Daring" Class="Paladin" Level="39" />
+	<Spell Name="Divine Purpose" Class="Paladin" Level="39" />
+	<Spell Name="Endure Disease" Class="Paladin" Level="39" />
+	<Spell Name="Greater Healing" Class="Paladin" Level="39" />
+	<Spell Name="Guard" Class="Paladin" Level="39" />
+	<Spell Name="Symbol of Ryltan" Class="Paladin" Level="39" />
+	<Spell Name="Yaulp II" Class="Paladin" Level="39" />
+	<Spell Name="Armor of Faith" Class="Paladin" Level="49" />
+	<Spell Name="Calm" Class="Paladin" Level="49" />
+	<Spell Name="Dismiss Undead" Class="Paladin" Level="49" />
+	<Spell Name="Divine Might" Class="Paladin" Level="49" />
+	<Spell Name="Holy Might" Class="Paladin" Level="49" />
+	<Spell Name="Revive" Class="Paladin" Level="49" />
+	<Spell Name="Symbol of Pinzarn" Class="Paladin" Level="49" />
+	<Spell Name="Valor" Class="Paladin" Level="49" />
+	<Spell Name="Flame of Light" Class="Paladin" Level="50" />
+	<Spell Name="Pacify" Class="Paladin" Level="51" />
+	<Spell Name="Resist Disease" Class="Paladin" Level="51" />
+	<Spell Name="Force" Class="Paladin" Level="52" />
+	<Spell Name="Frenzied Strength" Class="Paladin" Level="52" />
+	<Spell Name="Divine Glory" Class="Paladin" Level="53" />
+	<Spell Name="Enstill" Class="Paladin" Level="54" />
+	<Spell Name="Expel Undead" Class="Paladin" Level="54" />
+	<Spell Name="Divine Aura" Class="Paladin" Level="55" />
+	<Spell Name="Divine Favor" Class="Paladin" Level="55" />
+	<Spell Name="Resist Magic" Class="Paladin" Level="55" />
+	<Spell Name="Wave of Healing" Class="Paladin" Level="55" />
+	<Spell Name="Counteract Disease" Class="Paladin" Level="56" />
+	<Spell Name="Yaulp III" Class="Paladin" Level="56" />
+	<Spell Name="Superior Healing" Class="Paladin" Level="57" />
+	<Spell Name="Nullify Magic" Class="Paladin" Level="58" />
+	<Spell Name="Symbol of Naltron" Class="Paladin" Level="58" />
+	<Spell Name="Celestial Cleansing" Class="Paladin" Level="59" />
+	<Spell Name="Resurrection" Class="Paladin" Level="59" />
+	<Spell Name="Divine Strength" Class="Paladin" Level="60" />
+	<Spell Name="Resolution" Class="Paladin" Level="60" />
+	<Spell Name="Shield of Words" Class="Paladin" Level="60" />
+	<Spell Name="Yaulp IV" Class="Paladin" Level="60" />
+
+	
+	
+	<Spell Name="Endure Fire" Class="Ranger" Level="9" />
+	<Spell Name="Flame Lick" Class="Ranger" Level="9" />
+	<Spell Name="Glimpse" Class="Ranger" Level="9" />
+	<Spell Name="Lull Animal" Class="Ranger" Level="9" />
+	<Spell Name="Minor Healing" Class="Ranger" Level="9" />
+	<Spell Name="Skin Like Wood" Class="Ranger" Level="9" />
+	<Spell Name="Snare" Class="Ranger" Level="9" />
+	<Spell Name="Burst of Fire" Class="Ranger" Level="15" />
+	<Spell Name="Camouflage" Class="Ranger" Level="15" />
+	<Spell Name="Dance of the Fireflies" Class="Ranger" Level="15" />
+	<Spell Name="Feet like Cat" Class="Ranger" Level="15" />
+	<Spell Name="Grasping Roots" Class="Ranger" Level="15" />
+	<Spell Name="Invoke Lightning" Class="Ranger" Level="15" />
+	<Spell Name="Thistlecoat" Class="Ranger" Level="15" />
+	<Spell Name="Bind Sight" Class="Ranger" Level="22" />
+	<Spell Name="Endure Cold" Class="Ranger" Level="22" />
+	<Spell Name="Enduring Breath" Class="Ranger" Level="22" />
+	<Spell Name="Firefist" Class="Ranger" Level="22" />
+	<Spell Name="Harmony" Class="Ranger" Level="22" />
+	<Spell Name="Ignite" Class="Ranger" Level="22" />
+	<Spell Name="Light Healing" Class="Ranger" Level="22" />
+	<Spell Name="Panic Animal" Class="Ranger" Level="22" />
+	<Spell Name="Skin Like Rock" Class="Ranger" Level="22" />
+	<Spell Name="Ward Summoned" Class="Ranger" Level="22" />
+	<Spell Name="Barbcoat" Class="Ranger" Level="30" />
+	<Spell Name="Cancel Magic" Class="Ranger" Level="30" />
+	<Spell Name="Eyes of the Cat" Class="Ranger" Level="30" />
+	<Spell Name="Invigor" Class="Ranger" Level="30" />
+	<Spell Name="Shield of Thistles" Class="Ranger" Level="30" />
+	<Spell Name="Spirit of Wolf" Class="Ranger" Level="30" />
+	<Spell Name="Stinging Swarm" Class="Ranger" Level="30" />
+	<Spell Name="Strength of Earth" Class="Ranger" Level="30" />
+	<Spell Name="Bramblecoat" Class="Ranger" Level="39" />
+	<Spell Name="Call of Sky" Class="Ranger" Level="39" />
+	<Spell Name="Calm Animal" Class="Ranger" Level="39" />
+	<Spell Name="Careless Lightning" Class="Ranger" Level="39" />
+	<Spell Name="Dismiss Summoned" Class="Ranger" Level="39" />
+	<Spell Name="Healing" Class="Ranger" Level="39" />
+	<Spell Name="Levitate" Class="Ranger" Level="39" />
+	<Spell Name="See Invisible" Class="Ranger" Level="39" />
+	<Spell Name="Skin Like Steel" Class="Ranger" Level="39" />
+	<Spell Name="Spirit of Wolf" Class="Ranger" Level="39" />
+	<Spell Name="Call of Flame" Class="Ranger" Level="49" />
+	<Spell Name="Ensnaring Roots" Class="Ranger" Level="49" />
+	<Spell Name="Immolate" Class="Ranger" Level="49" />
+	<Spell Name="Resist Fire" Class="Ranger" Level="49" />
+	<Spell Name="Shield of Brambles" Class="Ranger" Level="49" />
+	<Spell Name="Spikecoat" Class="Ranger" Level="49" />
+	<Spell Name="Superior Camouflage" Class="Ranger" Level="49" />
+	<Spell Name="Wolf Form" Class="Ranger" Level="49" />
+	<Spell Name="Call of Earth" Class="Ranger" Level="50" />
+	<Spell Name="Ensnare" Class="Ranger" Level="51" />
+	<Spell Name="Jolt" Class="Ranger" Level="51" />
+	<Spell Name="Strength of Nature" Class="Ranger" Level="51" />
+	<Spell Name="Extinguish Fatigue" Class="Ranger" Level="52" />
+	<Spell Name="Firestrike" Class="Ranger" Level="52" />
+	<Spell Name="Storm Strength" Class="Ranger" Level="53" />
+	<Spell Name="Drones of Doom" Class="Ranger" Level="54" />
+	<Spell Name="Skin Like Diamond" Class="Ranger" Level="54" />
+	<Spell Name="Call of Fire" Class="Ranger" Level="55" />
+	<Spell Name="Chloroplast" Class="Ranger" Level="55" />
+	<Spell Name="Cinder Jolt" Class="Ranger" Level="55" />
+	<Spell Name="Resist Cold" Class="Ranger" Level="55" />
+	<Spell Name="Chill Sight" Class="Ranger" Level="56" />
+	<Spell Name="Greater Wolf Form" Class="Ranger" Level="56" />
+	<Spell Name="Greater Healing" Class="Ranger" Level="57" />
+	<Spell Name="Nullify Magic" Class="Ranger" Level="58" />
+	<Spell Name="Shield of Spikes" Class="Ranger" Level="58" />
+	<Spell Name="Calefaction" Class="Ranger" Level="59" />
+	<Spell Name="Skin Like Nature" Class="Ranger" Level="59" />
+	<Spell Name="Call of the Predator" Class="Ranger" Level="60" />
+	<Spell Name="Enveloping Roots" Class="Ranger" Level="60" />
+	<Spell Name="Thorncoat" Class="Ranger" Level="60" />
+	
+	
+	
+	<Spell Name="Disease Cloud" Class="ShadowKnight" Level="9" />
+	<Spell Name="Invisibility versus Undead" Class="ShadowKnight" Level="9" />
+	<Spell Name="Leering Corpse" Class="ShadowKnight" Level="9" />
+	<Spell Name="Lifetap" Class="ShadowKnight" Level="9" />
+	<Spell Name="Locate Corpse" Class="ShadowKnight" Level="9" />
+	<Spell Name="Sense the Dead" Class="ShadowKnight" Level="9" />
+	<Spell Name="Siphon Strength" Class="ShadowKnight" Level="9" />
+	<Spell Name="Bone Walk" Class="ShadowKnight" Level="15" />
+	<Spell Name="Clinging Darkness" Class="ShadowKnight" Level="15" />
+	<Spell Name="Endure Cold" Class="ShadowKnight" Level="15" />
+	<Spell Name="Fear" Class="ShadowKnight" Level="15" />
+	<Spell Name="Lifespike" Class="ShadowKnight" Level="15" />
+	<Spell Name="Numb the Dead" Class="ShadowKnight" Level="15" />
+	<Spell Name="Shadow Step" Class="ShadowKnight" Level="15" />
+	<Spell Name="Convoke Shadow" Class="ShadowKnight" Level="22" />
+	<Spell Name="Dark Empathy" Class="ShadowKnight" Level="22" />
+	<Spell Name="Deadeye" Class="ShadowKnight" Level="22" />
+	<Spell Name="Engulfing Darkness" Class="ShadowKnight" Level="22" />
+	<Spell Name="Grim Aura" Class="ShadowKnight" Level="22" />
+	<Spell Name="Spook the Dead" Class="ShadowKnight" Level="22" />
+	<Spell Name="Vampiric Embrace" Class="ShadowKnight" Level="22" />
+	<Spell Name="Ward Undead" Class="ShadowKnight" Level="22" />
+	<Spell Name="Strengthen Death" Class="ShadowKnight" Level="29" />
+	<Spell Name="Endure Disease" Class="ShadowKnight" Level="30" />
+	<Spell Name="Feign Death" Class="ShadowKnight" Level="30" />
+	<Spell Name="Gather Shadows" Class="ShadowKnight" Level="30" />
+	<Spell Name="Heat Blood" Class="ShadowKnight" Level="30" />
+	<Spell Name="Lifedraw" Class="ShadowKnight" Level="30" />
+	<Spell Name="Restless Bones" Class="ShadowKnight" Level="30" />
+	<Spell Name="Wave of Enfeeblement" Class="ShadowKnight" Level="30" />
+	<Spell Name="Animate Dead" Class="ShadowKnight" Level="39" />
+	<Spell Name="Cancel Magic" Class="ShadowKnight" Level="39" />
+	<Spell Name="Expulse Undead" Class="ShadowKnight" Level="39" />
+	<Spell Name="Heart Flutter" Class="ShadowKnight" Level="39" />
+	<Spell Name="Resist Cold" Class="ShadowKnight" Level="39" />
+	<Spell Name="Shadow Vortex" Class="ShadowKnight" Level="39" />
+	<Spell Name="Shieldskin" Class="ShadowKnight" Level="39" />
+	<Spell Name="Shroud of Hate" Class="ShadowKnight" Level="39" />
+	<Spell Name="Breath of the Dead" Class="ShadowKnight" Level="49" />
+	<Spell Name="Dismiss Undead" Class="ShadowKnight" Level="49" />
+	<Spell Name="Dooming Darkness" Class="ShadowKnight" Level="49" />
+	<Spell Name="Invoke Fear" Class="ShadowKnight" Level="49" />
+	<Spell Name="Life Leech" Class="ShadowKnight" Level="49" />
+	<Spell Name="Shadow Sight" Class="ShadowKnight" Level="49" />
+	<Spell Name="Summon Dead" Class="ShadowKnight" Level="49" />
+	<Spell Name="Word of Spirit" Class="ShadowKnight" Level="49" />
+	<Spell Name="Shroud of Pain" Class="ShadowKnight" Level="50" />
+	<Spell Name="Siphon Life" Class="ShadowKnight" Level="51" />
+	<Spell Name="Summon Corpse" Class="ShadowKnight" Level="51" />
+	<Spell Name="Malignant Dead" Class="ShadowKnight" Level="52" />
+	<Spell Name="Summon Companion" Class="ShadowKnight" Level="52" />
+	<Spell Name="Rest the Dead" Class="ShadowKnight" Level="52" />
+	<Spell Name="Boil Blood" Class="ShadowKnight" Level="53" />
+	<Spell Name="Banshee Aura" Class="ShadowKnight" Level="54" />
+	<Spell Name="Panic the Dead" Class="ShadowKnight" Level="54" />
+	<Spell Name="Bobbing Corpse" Class="ShadowKnight" Level="55" />
+	<Spell Name="Expel Undead" Class="ShadowKnight" Level="55" />
+	<Spell Name="Shroud of Death" Class="ShadowKnight" Level="55" />
+	<Spell Name="Shroud of Undeath" Class="ShadowKnight" Level="55" />
+	<Spell Name="Steelskin" Class="ShadowKnight" Level="56" />
+	<Spell Name="Spirit Tap" Class="ShadowKnight" Level="56" />
+	<Spell Name="Vampiric Curse" Class="ShadowKnight" Level="57" />
+	<Spell Name="Cackling Bones" Class="ShadowKnight" Level="58" />
+	<Spell Name="Nullify Magic" Class="ShadowKnight" Level="58" />
+	<Spell Name="Cascading Darkness" Class="ShadowKnight" Level="59" />
+	<Spell Name="Diamondskin" Class="ShadowKnight" Level="59" />
+	<Spell Name="Asystole" Class="ShadowKnight" Level="60" />
+	<Spell Name="Drain Spirit" Class="ShadowKnight" Level="60" />
+	<Spell Name="Drain Soul" Class="ShadowKnight" Level="60" />
+	<Spell Name="Death Peace" Class="ShadowKnight" Level="60" />
+	
+	
+	
+	<Spell Name="Frost Bolt" Class="Wizard" Level="1" />
+	<Spell Name="Minor Shielding" Class="Wizard" Level="1" />
+	<Spell Name="Numbing Cold" Class="Wizard" Level="1" />
+	<Spell Name="Shock of Frost" Class="Wizard" Level="1" />
+	<Spell Name="Sphere of Light" Class="Wizard" Level="1" />
+	<Spell Name="True North" Class="Wizard" Level="1" />
+	<Spell Name="Fade" Class="Wizard" Level="4" />
+	<Spell Name="Gate" Class="Wizard" Level="4" />
+	<Spell Name="Glimpse" Class="Wizard" Level="4" />
+	<Spell Name="Icestrike" Class="Wizard" Level="4" />
+	<Spell Name="O'Keils Radiation" Class="Wizard" Level="4" />
+	<Spell Name="Root" Class="Wizard" Level="4" />
+	<Spell Name="See Invisible" Class="Wizard" Level="4" />
+	<Spell Name="Shock of Fire" Class="Wizard" Level="4" />
+	<Spell Name="Column of Frost" Class="Wizard" Level="8" />
+	<Spell Name="Eye of Zomm" Class="Wizard" Level="8" />
+	<Spell Name="Fingers of Fire" Class="Wizard" Level="8" />
+	<Spell Name="Fire Bolt" Class="Wizard" Level="8" />
+	<Spell Name="Lesser Shielding" Class="Wizard" Level="8" />
+	<Spell Name="Sense Summoned" Class="Wizard" Level="8" />
+	<Spell Name="Shadow Step" Class="Wizard" Level="8" />
+	<Spell Name="Shock of Ice" Class="Wizard" Level="8" />
+	<Spell Name="Bind Affinity" Class="Wizard" Level="12" />
+	<Spell Name="Cancel Magic" Class="Wizard" Level="12" />
+	<Spell Name="Firestorm" Class="Wizard" Level="12" />
+	<Spell Name="Frost Spiral of Al'Kabor" Class="Wizard" Level="12" />
+	<Spell Name="Gaze" Class="Wizard" Level="12" />
+	<Spell Name="Halo of Light" Class="Wizard" Level="12" />
+	<Spell Name="Resistant Skin" Class="Wizard" Level="12" />
+	<Spell Name="Shock of Lightning" Class="Wizard" Level="12" />
+	<Spell Name="Bind Sight" Class="Wizard" Level="16" />
+	<Spell Name="Flame Shock" Class="Wizard" Level="16" />
+	<Spell Name="Heat Sight" Class="Wizard" Level="16" />
+	<Spell Name="Identify" Class="Wizard" Level="16" />
+	<Spell Name="Invisibility" Class="Wizard" Level="16" />
+	<Spell Name="Lightning Bolt" Class="Wizard" Level="16" />
+	<Spell Name="Pillar of Fire" Class="Wizard" Level="16" />
+	<Spell Name="Project Lightning" Class="Wizard" Level="16" />
+	<Spell Name="Shielding" Class="Wizard" Level="16" />
+	<Spell Name="Shieldskin" Class="Wizard" Level="16" />
+	<Spell Name="Elemental Shield" Class="Wizard" Level="20" />
+	<Spell Name="Enstill" Class="Wizard" Level="20" />
+	<Spell Name="Fay Gate" Class="Wizard" Level="20" />
+	<Spell Name="Fire Spiral of Al'Kabor" Class="Wizard" Level="20" />
+	<Spell Name="Force Shock" Class="Wizard" Level="20" />
+	<Spell Name="North Gate" Class="Wizard" Level="20" />
+	<Spell Name="Sight" Class="Wizard" Level="20" />
+	<Spell Name="Tishan's Clash" Class="Wizard" Level="20" />
+	<Spell Name="Tox Gate" Class="Wizard" Level="20" />
+	<Spell Name="Cast Force" Class="Wizard" Level="24" />
+	<Spell Name="Cazic Gate" Class="Wizard" Level="24" />
+	<Spell Name="Column of Lightning" Class="Wizard" Level="24" />
+	<Spell Name="Combine Gate" Class="Wizard" Level="24" />
+	<Spell Name="Common Gate" Class="Wizard" Level="24" />
+	<Spell Name="Frost Shock" Class="Wizard" Level="24" />
+	<Spell Name="Leatherskin" Class="Wizard" Level="24" />
+	<Spell Name="Levitate" Class="Wizard" Level="24" />
+	<Spell Name="Lightning Storm" Class="Wizard" Level="24" />
+	<Spell Name="Major Shielding" Class="Wizard" Level="24" />
+	<Spell Name="Nek Gate" Class="Wizard" Level="24" />
+	<Spell Name="Ro Gate" Class="Wizard" Level="24" />
+	<Spell Name="West Gate" Class="Wizard" Level="24" />
+	<Spell Name="Bonds of Force" Class="Wizard" Level="29" />
+	<Spell Name="Energy Storm" Class="Wizard" Level="29" />
+	<Spell Name="Evacuate: North" Class="Wizard" Level="29" />
+	<Spell Name="Fay Portal" Class="Wizard" Level="29" />
+	<Spell Name="Imbue Fire Opal" Class="Wizard" Level="29" />
+	<Spell Name="Inferno Shock" Class="Wizard" Level="29" />
+	<Spell Name="Magnify" Class="Wizard" Level="29" />
+	<Spell Name="North Portal" Class="Wizard" Level="29" />
+	<Spell Name="Shock Spiral of Al'Kabor" Class="Wizard" Level="29" />
+	<Spell Name="Thunder Strike" Class="Wizard" Level="29" />
+	<Spell Name="Tox Portal" Class="Wizard" Level="29" />
+	<Spell Name="Yonder" Class="Wizard" Level="29" />
+	<Spell Name="Cazic Portal" Class="Wizard" Level="34" />
+	<Spell Name="Circle of Force" Class="Wizard" Level="34" />
+	<Spell Name="Combine Portal" Class="Wizard" Level="34" />
+	<Spell Name="Evacuate: Fay" Class="Wizard" Level="34" />
+	<Spell Name="Great Divide Gate" Class="Wizard" Level="34" />
+	<Spell Name="Greater Shielding" Class="Wizard" Level="34" />
+	<Spell Name="Harvest" Class="Wizard" Level="34" />
+	<Spell Name="Ice Shock" Class="Wizard" Level="34" />
+	<Spell Name="Iceclad Gate" Class="Wizard" Level="34" />
+	<Spell Name="Iceclad Portal" Class="Wizard" Level="34" />
+	<Spell Name="Lava Storm" Class="Wizard" Level="34" />
+	<Spell Name="Nek Portal" Class="Wizard" Level="34" />
+	<Spell Name="Nullify Magic" Class="Wizard" Level="34" />
+	<Spell Name="O'Keils Flickering Flame" Class="Wizard" Level="34" />
+	<Spell Name="Steelskin" Class="Wizard" Level="34" />
+	<Spell Name="Thunderclap" Class="Wizard" Level="34" />
+	<Spell Name="Chill Sight" Class="Wizard" Level="39" />
+	<Spell Name="Cobalt Scar Gate" Class="Wizard" Level="39" />
+	<Spell Name="Common Portal" Class="Wizard" Level="39" />
+	<Spell Name="Concussion" Class="Wizard" Level="39" />
+	<Spell Name="Evacuate: Ro" Class="Wizard" Level="39" />
+	<Spell Name="Force Spiral of Al'Kabor" Class="Wizard" Level="39" />
+	<Spell Name="Great Divide Portal" Class="Wizard" Level="39" />
+	<Spell Name="Immobilize" Class="Wizard" Level="39" />
+	<Spell Name="Invisibility to Undead" Class="Wizard" Level="39" />
+	<Spell Name="Lightning Shock" Class="Wizard" Level="39" />
+	<Spell Name="Markar's Relocation" Class="Wizard" Level="39" />
+	<Spell Name="Ro Portal" Class="Wizard" Level="39" />
+	<Spell Name="Shifting Sight" Class="Wizard" Level="39" />
+	<Spell Name="Tishan's Relocation" Class="Wizard" Level="39" />
+	<Spell Name="Translocate: Combine" Class="Wizard" Level="39" />
+	<Spell Name="Translocate: Fay" Class="Wizard" Level="39" />
+	<Spell Name="Translocate: North" Class="Wizard" Level="39" />
+	<Spell Name="Translocate: Tox" Class="Wizard" Level="39" />
+	<Spell Name="Wakening Lands Gate" Class="Wizard" Level="39" />
+	<Spell Name="West Portal" Class="Wizard" Level="39" />
+	<Spell Name="Arch Shielding" Class="Wizard" Level="44" />
+	<Spell Name="Cobalt Scar Portal" Class="Wizard" Level="44" />
+	<Spell Name="Conflagration" Class="Wizard" Level="44" />
+	<Spell Name="Diamondskin" Class="Wizard" Level="44" />
+	<Spell Name="Elemental Armor" Class="Wizard" Level="44" />
+	<Spell Name="Enticement of Flame" Class="Wizard" Level="44" />
+	<Spell Name="Evacuate: Nek" Class="Wizard" Level="44" />
+	<Spell Name="Force Strike" Class="Wizard" Level="44" />
+	<Spell Name="Frost Storm" Class="Wizard" Level="44" />
+	<Spell Name="Gravity Flux" Class="Wizard" Level="44" />
+	<Spell Name="Translocate: Cazic" Class="Wizard" Level="44" />
+	<Spell Name="Translocate: Common" Class="Wizard" Level="44" />
+	<Spell Name="Translocate: West" Class="Wizard" Level="44" />
+	<Spell Name="Translocate: Nek" Class="Wizard" Level="44" />
+	<Spell Name="Translocate: Ro" Class="Wizard" Level="44" />
+	<Spell Name="Wakening Lands Portal" Class="Wizard" Level="44" />
+	<Spell Name="Alter Plane: Hate" Class="Wizard" Level="46" />
+	<Spell Name="Alter Plane: Sky" Class="Wizard" Level="46" />
+	<Spell Name="Evacuate: West" Class="Wizard" Level="49" />
+	<Spell Name="Ice Comet" Class="Wizard" Level="49" />
+	<Spell Name="Markar's Clash" Class="Wizard" Level="49" />
+	<Spell Name="Paralyzing Earth" Class="Wizard" Level="49" />
+	<Spell Name="Rend" Class="Wizard" Level="49" />
+	<Spell Name="Supernova" Class="Wizard" Level="49" />
+	<Spell Name="Translocate: Cobalt Scar" Class="Wizard" Level="49" />
+	<Spell Name="Translocate: Great Divide" Class="Wizard" Level="49" />
+	<Spell Name="Translocate: Iceclad" Class="Wizard" Level="49" />
+	<Spell Name="Translocate: Wakening Lands" Class="Wizard" Level="49" />
+	<Spell Name="Wrath of Al'Kabor" Class="Wizard" Level="49" />
+	<Spell Name="Translocate" Class="Wizard" Level="50" />
+	<Spell Name="Atol's Spectral Shackles" Class="Wizard" Level="51" />
+	<Spell Name="Draught of Fire" Class="Wizard" Level="51" />
+	<Spell Name="Pillar of Frost" Class="Wizard" Level="51" />
+	<Spell Name="Tishan's Discord" Class="Wizard" Level="51" />
+	<Spell Name="Abscond" Class="Wizard" Level="52" />
+	<Spell Name="Lure of Frost" Class="Wizard" Level="52" />
+	<Spell Name="Manaskin" Class="Wizard" Level="52" />
+	<Spell Name="Tears of Druzzil" Class="Wizard" Level="52" />
+	<Spell Name="Translocate: Group" Class="Wizard" Level="52" />
+	<Spell Name="Annul Magic" Class="Wizard" Level="53" />
+	<Spell Name="Inferno of Al'Kabor" Class="Wizard" Level="53" />
+	<Spell Name="Jyll's Static Pulse" Class="Wizard" Level="53" />
+	<Spell Name="Pillar of Lightning" Class="Wizard" Level="54" />
+	<Spell Name="Shield of the Magi" Class="Wizard" Level="54" />
+	<Spell Name="Thunderbold" Class="Wizard" Level="54" />
+	<Spell Name="Voltaic Draught" Class="Wizard" Level="54" />
+	<Spell Name="Draught of Jiva" Class="Wizard" Level="55" />
+	<Spell Name="Improved Invisibility" Class="Wizard" Level="55" />
+	<Spell Name="Lure of Flame" Class="Wizard" Level="55" />
+	<Spell Name="Plainsight" Class="Wizard" Level="55" />
+	<Spell Name="Tears of Solusek" Class="Wizard" Level="55" />
+	<Spell Name="Jyll's Zephyr of Ice" Class="Wizard" Level="56" />
+	<Spell Name="Markar's Discord" Class="Wizard" Level="56" />
+	<Spell Name="Retribution of Al'Kabor" Class="Wizard" Level="56" />
+	<Spell Name="Draught of Ice" Class="Wizard" Level="57" />
+	<Spell Name="Evacuate" Class="Wizard" Level="57" />
+	<Spell Name="Eye of Tallon" Class="Wizard" Level="57" />
+	<Spell Name="Pillar of Flame" Class="Wizard" Level="57" />
+	<Spell Name="Fetter" Class="Wizard" Level="58" />
+	<Spell Name="Lure of Lightning" Class="Wizard" Level="58" />
+	<Spell Name="Manasink" Class="Wizard" Level="58" />
+	<Spell Name="Tears of Prexus" Class="Wizard" Level="58" />
+	<Spell Name="Flaming Sword of Xuzl" Class="Wizard" Level="59" />
+	<Spell Name="Invert Gravity" Class="Wizard" Level="59" />
+	<Spell Name="Jyll's Wave of Heat" Class="Wizard" Level="59" />
+	<Spell Name="Vengeance of Al'Kabor" Class="Wizard" Level="59" />
+	<Spell Name="Disintegrate" Class="Wizard" Level="60" />
+	<Spell Name="Hsagra's Wrath" Class="Wizard" Level="60" />
+	<Spell Name="Ice Spear of Solist" Class="Wizard" Level="60" />
+	<Spell Name="Lure of Ice" Class="Wizard" Level="60" />
+	<Spell Name="Porlos' Fury" Class="Wizard" Level="60" />
+	<Spell Name="Sunstrike" Class="Wizard" Level="60" />
+	<Spell Name="Winds of Gelid" Class="Wizard" Level="60" />
 
 </Spells>

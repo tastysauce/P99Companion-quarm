@@ -8,7 +8,7 @@ namespace WindmillHelix.Companion99.Common
 {
     public static partial class ExtensionMethods
     {
-        public static bool EqualIngoreCase(this string source, string value)
+        public static bool EqualsIngoreCase(this string source, string value)
         {
             return string.Equals(source, value, StringComparison.OrdinalIgnoreCase);
         }

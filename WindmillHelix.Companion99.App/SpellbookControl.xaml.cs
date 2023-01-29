@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WindmillHelix.Companion99.App.Models;
+using WindmillHelix.Companion99.Common;
 using WindmillHelix.Companion99.Services;
 using WindmillHelix.Companion99.Services.Models;
 
@@ -112,10 +113,15 @@ namespace WindmillHelix.Companion99.App
             var searchText = SearchTextBox.Text;
 
             var filtered = _items;
+            var characterName = (string)CharacterComboBox.SelectedValue;
 
-            if (string.IsNullOrWhiteSpace((string)CharacterComboBox.SelectedValue))
+            if (string.IsNullOrWhiteSpace(characterName))
             {
                 filtered = filtered.Where(x => false).ToList();
+            }
+            else
+            {
+                filtered = filtered.Where(x => x.CharacterName.EqualsIngoreCase(characterName)).ToList();
             }
 
             var toDisplay = new List<SpellDisplayModel>();

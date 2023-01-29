@@ -229,7 +229,7 @@ namespace WindmillHelix.Companion99.App
         public Task Handle(NoteUpdateEvent value)
         {
             var note = value.Note;
-            var item = _results.SingleOrDefault(x => x.Name.EqualIngoreCase(note.CharacterName) && x.ServerName.EqualIngoreCase(note.ServerName));
+            var item = _results.SingleOrDefault(x => x.Name.EqualsIngoreCase(note.CharacterName) && x.ServerName.EqualsIngoreCase(note.ServerName));
 
             if(item != null)
             {
