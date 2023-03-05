@@ -55,6 +55,7 @@
                     <ComboBoxItem>Yes</ComboBoxItem>
                     <ComboBoxItem>No</ComboBoxItem>
                 </ComboBox>
+                <Button x:Name="ResetButton" Content="Reset" Click="ResetButton_Click" />
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Label Content="Action:"/>
                     <ComboBox x:Name="ActionComboBox" Width="60px">

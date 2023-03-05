@@ -145,7 +145,7 @@ namespace WindmillHelix.Companion99.App
             var window = new KeysWindow();
             window.Items = filtered;
             window.CharacterName = characterName;
-            window.ShowDialog();
+            window.Show();
         }
     }
 }

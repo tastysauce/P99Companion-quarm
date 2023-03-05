@@ -25,6 +25,7 @@ namespace WindmillHelix.Companion99.App
     public partial class WhoResultsControl : UserControl, ILogListener, IEventSubscriber<NoteUpdateEvent>
     {
         private bool _isInWhoResults = false;
+        private bool _isResetting = false;
 
         private ILineParserService _lineParserService;
 
@@ -127,6 +128,11 @@ namespace WindmillHelix.Companion99.App
 
         private void ApplyFiltersAndItemSource()
         {
+            if(_isResetting)
+            {
+                return;
+            }
+
             var filtered = _results;
             if(!string.IsNullOrWhiteSpace(GuildTextBox.Text))
             {
@@ -237,6 +243,24 @@ namespace WindmillHelix.Companion99.App
             }
 
             return Task.CompletedTask;
+        }
+
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            _isResetting = true;
+            try
+            {
+                GuildTextBox.Clear();
+                ClassComboBox.SelectedIndex = 0;
+                LfgComboBox.SelectedIndex = 0;
+                _isResetting = false;
+                ApplyFiltersAndItemSource();
+
+            }
+            finally
+            {
+                _isResetting = false;
+            }
         }
     }
 }

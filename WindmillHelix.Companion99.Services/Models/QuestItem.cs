@@ -23,6 +23,9 @@ namespace WindmillHelix.Companion99.Services.Models
         [XmlAttribute]
         public SubQuestItemBehavior Behavior { get; set; }
 
+        [XmlAttribute]
+        public string Url { get; set; }
+
         public QuestItem[] SubQuestItems { get; set; }
     }
 }

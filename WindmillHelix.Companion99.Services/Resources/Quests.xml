@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Quests>
-	<QuestItem ItemName="Key of Veeshan (Key to Veeshan's Peak)" ItemId="20884">
+	<QuestItem ItemName="Key of Veeshan (Key to Veeshan's Peak)" ItemId="1817" Url="https://wiki.project1999.com/Rune_of_Scale_Quest">
 		<SubQuestItems>
 			<QuestItem ItemName="Trakanon's Tooth" ItemId="7276" />
 			<QuestItem ItemName="Medallion of the Jarsath" ItemId="19954">

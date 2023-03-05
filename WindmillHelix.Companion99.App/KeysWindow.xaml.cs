@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WindmillHelix.Companion99.Services;
+using WindmillHelix.Companion99.Services.Events;
 using WindmillHelix.Companion99.Services.Models;
 
 namespace WindmillHelix.Companion99.App
@@ -21,7 +22,7 @@ namespace WindmillHelix.Companion99.App
     /// </summary>
     public partial class KeysWindow : Window
     {
-        private const int VeeshansPeakKey = 20884;
+        private const int VeeshansPeakKey = 1817;
         private const int SebilisKey = 1810;
 
         private bool _isInitialized = false;
@@ -35,6 +36,7 @@ namespace WindmillHelix.Companion99.App
 
         public string CharacterName { get; set; }
 
+
         protected override void OnActivated(EventArgs e)
         {
             base.OnActivated(e);
@@ -47,7 +49,7 @@ namespace WindmillHelix.Companion99.App
                 {
                     var child = new QuestItemDisplayControl();
                     child.ItemId = key;
-                    child.Items = Items;
+                    child.CharacterName = CharacterName;
                     KeysPanel.Children.Add(child);
                 }
 
