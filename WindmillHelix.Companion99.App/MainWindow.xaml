@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="30" />
         </Grid.RowDefinitions>
 
         <ToolBar Grid.Row="0">
@@ -33,6 +34,9 @@
             <TabItem Header="Notes">
                 <local:NotesControl />
             </TabItem>
+            <TabItem Header="Socials">
+                <local:SocialsControl />
+            </TabItem>            
             <TabItem Header="Settings">
                 <StackPanel Orientation="Vertical">
                     <StackPanel Orientation="Horizontal">
@@ -40,5 +44,8 @@
                 </StackPanel>
             </TabItem>
         </TabControl>
+        <StatusBar Grid.Row="2">
+            <local:LastLocationControl HorizontalContentAlignment="Right"/>
+        </StatusBar>
     </Grid>
 </Window>

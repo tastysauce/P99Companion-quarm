@@ -133,7 +133,7 @@ namespace WindmillHelix.Companion99.App
                 {
                     Level = x.Level,
                     SpellName = x.Name,
-                    HasSpell = filtered.Any(f => f.SpellName.Equals(x.Name, StringComparison.InvariantCultureIgnoreCase))
+                    HasSpell = filtered.Any(f => SpellUtil.SpellNameEquals(x.Name, f.SpellName))
                 }).ToList();
             }
             else

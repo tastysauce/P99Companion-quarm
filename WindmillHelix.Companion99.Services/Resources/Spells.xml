@@ -620,13 +620,13 @@
 	<Spell Name="Banishment of Shadows" Class="Cleric" Level="60" />
 	<Spell Name="Divine Intervention" Class="Cleric" Level="60" />
 	<Spell Name="Word of Redemption" Class="Cleric" Level="60" />
-	
-	
-	
+
+
+
 	<Spell Name="Lull" Class="Enchanter" Level="1" />
 	<Spell Name="Minor Illusion" Class="Enchanter" Level="1" />
 	<Spell Name="Minor Shielding" Class="Enchanter" Level="1" />
-	<Spell Name="Pendril's Animation" Class="Enchanter" Level="1" />
+	<Spell Name="Pendril`s Animation" Class="Enchanter" Level="1" />
 	<Spell Name="Reclaim Energy" Class="Enchanter" Level="1" />
 	<Spell Name="Shallow Breath" Class="Enchanter" Level="1" />
 	<Spell Name="Strengthen" Class="Enchanter" Level="1" />
@@ -641,7 +641,7 @@
 	<Spell Name="Illusion: Half-Elf" Class="Enchanter" Level="4" />
 	<Spell Name="Illusion: Human" Class="Enchanter" Level="4" />
 	<Spell Name="Invisibility" Class="Enchanter" Level="4" />
-	<Spell Name="Juli's Animation" Class="Enchanter" Level="4" />
+	<Spell Name="Juli`s Animation" Class="Enchanter" Level="4" />
 	<Spell Name="Mesmerize" Class="Enchanter" Level="4" />
 	<Spell Name="Suffocating Sphere" Class="Enchanter" Level="4" />
 	<Spell Name="Tashan" Class="Enchanter" Level="4" />
@@ -650,12 +650,12 @@
 	<Spell Name="Cancel Magic" Class="Enchanter" Level="8" />
 	<Spell Name="Chaotic Feedback" Class="Enchanter" Level="8" />
 	<Spell Name="Enchant Clay" Class="Enchanter" Level="8" />
-	<Spell Name="Enchant: Silver" Class="Enchanter" Level="8" />
+	<Spell Name="Enchant Silver" Class="Enchanter" Level="8" />
 	<Spell Name="Eye of Confusion" Class="Enchanter" Level="8" />
 	<Spell Name="Illusion: Gnome" Class="Enchanter" Level="8" />
 	<Spell Name="Illusion: Wood Elf" Class="Enchanter" Level="8" />
 	<Spell Name="Lesser Shielding" Class="Enchanter" Level="8" />
-	<Spell Name="Mircyl's Animation" Class="Enchanter" Level="8" />
+	<Spell Name="Mircyl`s Animation" Class="Enchanter" Level="8" />
 	<Spell Name="Root" Class="Enchanter" Level="8" />
 	<Spell Name="See Invisible" Class="Enchanter" Level="8" />
 	<Spell Name="Sentinel" Class="Enchanter" Level="8" />
@@ -669,7 +669,7 @@
 	<Spell Name="Illusion: Erudite" Class="Enchanter" Level="12" />
 	<Spell Name="Illusion: Halfling" Class="Enchanter" Level="12" />
 	<Spell Name="Illusion: High Elf" Class="Enchanter" Level="12" />
-	<Spell Name="Kilan's Animation" Class="Enchanter" Level="12" />
+	<Spell Name="Kilan`s Animation" Class="Enchanter" Level="12" />
 	<Spell Name="Languid Pace" Class="Enchanter" Level="12" />
 	<Spell Name="Memory Blur" Class="Enchanter" Level="12" />
 	<Spell Name="Mist" Class="Enchanter" Level="12" />
@@ -679,7 +679,7 @@
 	<Spell Name="Breeze" Class="Enchanter" Level="16" />
 	<Spell Name="Chase the Moon" Class="Enchanter" Level="16" />
 	<Spell Name="Disempower" Class="Enchanter" Level="16" />
-	<Spell Name="Enchant: Electrum" Class="Enchanter" Level="16" />
+	<Spell Name="Enchant Electrum" Class="Enchanter" Level="16" />
 	<Spell Name="Enthrall" Class="Enchanter" Level="16" />
 	<Spell Name="Identify" Class="Enchanter" Level="16" />
 	<Spell Name="Illusion: Barbarian" Class="Enchanter" Level="16" />
@@ -691,7 +691,7 @@
 	<Spell Name="Quickness" Class="Enchanter" Level="16" />
 	<Spell Name="Rune I" Class="Enchanter" Level="16" />
 	<Spell Name="Sanity Warp" Class="Enchanter" Level="16" />
-	<Spell Name="Shalee's Animation" Class="Enchanter" Level="16" />
+	<Spell Name="Shalee`s Animation" Class="Enchanter" Level="16" />
 	<Spell Name="Shielding" Class="Enchanter" Level="16" />
 	<Spell Name="Benevolence" Class="Enchanter" Level="20" />
 	<Spell Name="Berserker Strength" Class="Enchanter" Level="20" />
@@ -705,19 +705,19 @@
 	<Spell Name="Illusion: Ogre" Class="Enchanter" Level="20" />
 	<Spell Name="Illusion: Troll" Class="Enchanter" Level="20" />
 	<Spell Name="Shifting Sight" Class="Enchanter" Level="20" />
-	<Spell Name="Sisna's Animation" Class="Enchanter" Level="20" />
+	<Spell Name="Sisna`s Animation" Class="Enchanter" Level="20" />
 	<Spell Name="Sympathetic Aura" Class="Enchanter" Level="20" />
 	<Spell Name="Tashani" Class="Enchanter" Level="20" />
 	<Spell Name="Alacrity" Class="Enchanter" Level="24" />
 	<Spell Name="Beguile" Class="Enchanter" Level="24" />
 	<Spell Name="Chaos Flux" Class="Enchanter" Level="24" />
-	<Spell Name="Enchant: Gold" Class="Enchanter" Level="24" />
+	<Spell Name="Enchant Gold" Class="Enchanter" Level="24" />
 	<Spell Name="Illusion: Earth Elemental" Class="Enchanter" Level="24" />
 	<Spell Name="Illusion: Skeleton" Class="Enchanter" Level="24" />
 	<Spell Name="Invigor" Class="Enchanter" Level="24" />
 	<Spell Name="Major Shielding" Class="Enchanter" Level="24" />
 	<Spell Name="Rune II" Class="Enchanter" Level="24" />
-	<Spell Name="Sagar's Animation" Class="Enchanter" Level="24" />
+	<Spell Name="Sagar`s Animation" Class="Enchanter" Level="24" />
 	<Spell Name="Strip Enchantment" Class="Enchanter" Level="24" />
 	<Spell Name="Tepid Deeds" Class="Enchanter" Level="24" />
 	<Spell Name="Augmentation" Class="Enchanter" Level="29" />
@@ -733,12 +733,12 @@
 	<Spell Name="Nullify Magic" Class="Enchanter" Level="29" />
 	<Spell Name="Obscure" Class="Enchanter" Level="29" />
 	<Spell Name="Suffocate" Class="Enchanter" Level="29" />
-	<Spell Name="Uleen's Animation" Class="Enchanter" Level="29" />
+	<Spell Name="Uleen`s Animation" Class="Enchanter" Level="29" />
 	<Spell Name="Ultravision" Class="Enchanter" Level="29" />
 	<Spell Name="Anarchy" Class="Enchanter" Level="34" />
-	<Spell Name="Boltran's Animation" Class="Enchanter" Level="34" />
+	<Spell Name="Boltran`s Animation" Class="Enchanter" Level="34" />
 	<Spell Name="Cast Sight" Class="Enchanter" Level="34" />
-	<Spell Name="Enchant: Platinum" Class="Enchanter" Level="34" />
+	<Spell Name="Enchant Platinum" Class="Enchanter" Level="34" />
 	<Spell Name="Entrance" Class="Enchanter" Level="34" />
 	<Spell Name="Gift of Magic" Class="Enchanter" Level="34" />
 	<Spell Name="Greater Shielding" Class="Enchanter" Level="34" />
@@ -747,7 +747,7 @@
 	<Spell Name="Mana Sieve" Class="Enchanter" Level="34" />
 	<Spell Name="Radiant Visage" Class="Enchanter" Level="34" />
 	<Spell Name="Rune III" Class="Enchanter" Level="34" />
-	<Spell Name="Aanya's Animation" Class="Enchanter" Level="39" />
+	<Spell Name="Aanya`s Animation" Class="Enchanter" Level="39" />
 	<Spell Name="Cajoling Whispers" Class="Enchanter" Level="39" />
 	<Spell Name="Celerity" Class="Enchanter" Level="39" />
 	<Spell Name="Distill Mana" Class="Enchanter" Level="39" />
@@ -768,7 +768,7 @@
 	<Spell Name="Brilliance" Class="Enchanter" Level="44" />
 	<Spell Name="Color Skew" Class="Enchanter" Level="44" />
 	<Spell Name="Discordant Mind" Class="Enchanter" Level="44" />
-	<Spell Name="Enchant: Velium" Class="Enchanter" Level="44" />
+	<Spell Name="Enchant Velium" Class="Enchanter" Level="44" />
 	<Spell Name="Extinguish Fatigue" Class="Enchanter" Level="44" />
 	<Spell Name="Illusion: Werewolf" Class="Enchanter" Level="44" />
 	<Spell Name="Incapacitate" Class="Enchanter" Level="44" />
@@ -778,19 +778,19 @@
 	<Spell Name="Summon Companion" Class="Enchanter" Level="44" />
 	<Spell Name="Tashania" Class="Enchanter" Level="44" />
 	<Spell Name="Weakness" Class="Enchanter" Level="44" />
-	<Spell Name="Yegoreff's Animation" Class="Enchanter" Level="44" />
+	<Spell Name="Yegoreff`s Animation" Class="Enchanter" Level="44" />
 	<Spell Name="Adorning Grace" Class="Enchanter" Level="49" />
 	<Spell Name="Allure" Class="Enchanter" Level="49" />
 	<Spell Name="Berserker Spirit" Class="Enchanter" Level="49" />
 	<Spell Name="Blanket of Forgetfulness" Class="Enchanter" Level="49" />
 	<Spell Name="Dazzle" Class="Enchanter" Level="49" />
-	<Spell Name="Enchant: Adamantite" Class="Enchanter" Level="49" />
+	<Spell Name="Enchant Adamantite" Class="Enchanter" Level="49" />
 	<Spell Name="Enchant Brellium" Class="Enchanter" Level="49" />
 	<Spell Name="Enchant Mithril" Class="Enchanter" Level="49" />
 	<Spell Name="Enchant Steel" Class="Enchanter" Level="49" />
 	<Spell Name="Gasping Embrace" Class="Enchanter" Level="49" />
 	<Spell Name="Group Resist Magic" Class="Enchanter" Level="49" />
-	<Spell Name="Kintaz's Animation" Class="Enchanter" Level="49" />
+	<Spell Name="Kintaz`s Animation" Class="Enchanter" Level="49" />
 	<Spell Name="Paralyzing Earth" Class="Enchanter" Level="49" />
 	<Spell Name="Purify Mana" Class="Enchanter" Level="49" />
 	<Spell Name="Reoccurring Amnesia" Class="Enchanter" Level="49" />
@@ -816,7 +816,7 @@
 	<Spell Name="Largarn's Lamentation" Class="Enchanter" Level="55" />
 	<Spell Name="Memory Flux" Class="Enchanter" Level="55" />
 	<Spell Name="Wind of Tishani" Class="Enchanter" Level="55" />
-	<Spell Name="Zumaik's Animation" Class="Enchanter" Level="55" />
+	<Spell Name="Zumaik`s Animation" Class="Enchanter" Level="55" />
 	<Spell Name="Augment" Class="Enchanter" Level="56" />
 	<Spell Name="Overwhelming Splendor" Class="Enchanter" Level="56" />
 	<Spell Name="Torment of Argli" Class="Enchanter" Level="56" />

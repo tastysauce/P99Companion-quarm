@@ -81,6 +81,10 @@ namespace WindmillHelix.Companion99.App
             {
                 PutTellOnClipboard(item);
             }
+            else if (action == "Consent")
+            {
+                PutConsentOnClipboard(item);
+            }
             else if (action == "Target")
             {
                 PutTargetOnClipboard(item);
@@ -198,6 +202,10 @@ namespace WindmillHelix.Companion99.App
             {
                 PutTargetOnClipboard(selected);
             }
+            else if (header == "Consent")
+            {
+                PutConsentOnClipboard(selected);
+            }
             else if(header == "Note")
             {
                 EditNote(selected);
@@ -229,6 +237,12 @@ namespace WindmillHelix.Companion99.App
         private void PutTellOnClipboard(WhoResult whoResult)
         {
             var command = $"/tell {whoResult.Name}";
+            Clipboard.SetText(command);
+        }
+
+        private void PutConsentOnClipboard(WhoResult whoResult)
+        {
+            var command = $"/consent {whoResult.Name}";
             Clipboard.SetText(command);
         }
 

@@ -33,7 +33,7 @@ namespace WindmillHelix.Companion99.Services
             }
 
             var classes = Enum.GetValues<EverQuestClass>();
-            var matches = new List<EverQuestClass>();
+            var matches = new List<Tuple<EverQuestClass, double>>();
 
             foreach(var item in classes)
             {
@@ -43,16 +43,27 @@ namespace WindmillHelix.Companion99.Services
                 }
 
                 var spells = _classSpells[item];
-                var hasAll = spellbookItems.All(x => spells.Any(s => s.Name.Equals(x.SpellName, StringComparison.OrdinalIgnoreCase) && s.Level == x.Level));
-                if(hasAll)
-                {
-                    matches.Add(item);
-                }
+
+                var count = spellbookItems.Count(x => spells.Any(s => SpellUtil.SpellNameEquals(s.Name, x.SpellName) && s.Level == x.Level));
+                var percent = (100.0 * count) / spellbookItems.Count;
+
+                matches.Add(Tuple.Create(item, percent));
             }
 
-            if(matches.Count == 1)
+            var ordered = matches.OrderByDescending(x => x.Item2);
+            if(ordered.First().Item2 > 85)
             {
-                return matches[0];
+                var selectedClass = ordered.First().Item1;
+                var classSpells = _classSpells[selectedClass];
+                var inBookButNotList = spellbookItems
+                    .Where(x => ! classSpells.Any(s => !SpellUtil.SpellNameEquals(s.Name, x.SpellName)))
+                    .ToList();
+
+                if(inBookButNotList.Count > 0)
+                {
+                }    
+
+                return selectedClass;
             }
 
             return null;

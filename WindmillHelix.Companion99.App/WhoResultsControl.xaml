@@ -70,6 +70,7 @@
                     <ContextMenu>
                         <MenuItem Header="Note" Click="MenuItem_Click" ></MenuItem>
                         <MenuItem Header="Target" Click="MenuItem_Click" ></MenuItem>
+                        <MenuItem Header="Consent" Click="MenuItem_Click" ></MenuItem>
                         <MenuItem Header="Tell" Click="MenuItem_Click" ></MenuItem>
                     </ContextMenu>                    
                 </ListView.ContextMenu>
