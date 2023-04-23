@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="26"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="26"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Grid.Row="0">
             <Label Content="Character:"/>
@@ -47,5 +48,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Label x:Name="ResultsSummaryLabel"/>
+        </StackPanel>
     </Grid>
 </UserControl>

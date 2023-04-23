@@ -115,6 +115,7 @@ namespace WindmillHelix.Companion99.App
             {
                 _filteredItems = filtered;
                 ItemsListView.ItemsSource = filtered;
+                BuildResultSummary(filtered);
                 return;
             }
 
@@ -129,7 +130,34 @@ namespace WindmillHelix.Companion99.App
             }
 
             _filteredItems = filtered;
+            BuildResultSummary(filtered);
             ItemsListView.ItemsSource = filtered;
+        }
+
+        private void BuildResultSummary(IReadOnlyCollection<InventoryItem> filtered)
+        {
+            var totalCount = filtered.Sum(x => x.Count);
+            var distinctCount = filtered.Select(x => x.ItemId).Distinct().Count();
+
+            var resultSummary = $"{totalCount} item";
+            if (totalCount != 1)
+            {
+                resultSummary += "s";
+            }
+
+            resultSummary += $" in {filtered.Count} slot";
+            if (filtered.Count != 1)
+            {
+                resultSummary += "s";
+            }
+
+            resultSummary += $", {distinctCount} distinct item";
+            if (distinctCount != 1)
+            {
+                resultSummary += "s";
+            }
+
+            ResultsSummaryLabel.Content = resultSummary;
         }
 
         private void KeysButton_Click(object sender, RoutedEventArgs e)
