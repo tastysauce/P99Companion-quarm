@@ -43,7 +43,7 @@ namespace WindmillHelix.Companion99.App
             
             LfgComboBox.SelectedIndex = 0;
             ClassComboBox.SelectedIndex = 0;
-            ActionComboBox.SelectedIndex = 0;
+            ActionComboBox.SelectedIndex = 1;
 
             logReaderService.AddListener(this);
             eventService.AddSubscriber(this);
