@@ -34,6 +34,9 @@
             <TabItem Header="Notes">
                 <local:NotesControl />
             </TabItem>
+            <TabItem Header="Park Info">
+                <local:LastZoneControl />
+            </TabItem>            
             <TabItem Header="Socials">
                 <local:SocialsControl />
             </TabItem>            

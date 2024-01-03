@@ -129,6 +129,7 @@ namespace WindmillHelix.Companion99.Services
                 case "Elementalist":
                 case "Conjurer":
                 case "Arch Mage":
+                case "Arch": // hack to avoid parsing out correctly
                     return "Magician";
                 case "Disciple":
                 case "Master":

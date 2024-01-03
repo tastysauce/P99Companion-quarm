@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WindmillHelix.Companion99.App.Services;
 using WindmillHelix.Companion99.Services;
 using WindmillHelix.Companion99.Services.Events;
 
@@ -28,6 +29,7 @@ namespace WindmillHelix.Companion99.App
         private readonly IInventoryService _inventoryService;
         private readonly FileSystemWatcher _watcher;
         private readonly IEventService _eventService;
+        private readonly IKillControlService _killControlService; 
 
         public MainWindow()
         {
@@ -37,6 +39,7 @@ namespace WindmillHelix.Companion99.App
             _configurationService = DependencyInjector.Resolve<IConfigurationService>();
             _inventoryService = DependencyInjector.Resolve<IInventoryService>();
             _eventService = DependencyInjector.Resolve<IEventService>();
+            _killControlService = DependencyInjector.Resolve<IKillControlService>();
 
             _watcher = _inventoryService.CreateInventoryChangedWatcher();
             _watcher.Changed += HandleInventoryFilesChanged;
