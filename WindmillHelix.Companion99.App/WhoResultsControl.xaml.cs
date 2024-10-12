@@ -157,6 +157,28 @@ namespace WindmillHelix.Companion99.App
             }
 
             ResultsListView.ItemsSource = filtered;
+            UpdateGuildStatistics(filtered);
+            UpdateClassStatistics(filtered);
+        }
+
+        private void UpdateGuildStatistics(List<WhoResult> filtered)
+        {
+            const string Unguilded = "Unguilded";
+
+            var guildNames = filtered.Select(x => x.Guild).Distinct().OrderBy(x => x).ToList();
+
+            var summaries = guildNames.Select(x => $"{(string.IsNullOrEmpty(x) ? Unguilded : x)}: {filtered.Count(f => f.Guild == x)}").ToList();
+            var labelText = string.Join(" | ", summaries);
+            GuildSummaryLabel.Content = labelText;
+        }
+
+        private void UpdateClassStatistics(List<WhoResult> filtered)
+        {
+            var classNames = filtered.Select(x => x.Class).Distinct().OrderBy(x => x).ToList();
+
+            var summaries = classNames.Select(x => $"{x}: {filtered.Count(f => f.Class == x)}").ToList();
+            var labelText = string.Join(" | ", summaries);
+            ClassSummaryLabel.Content = labelText;
         }
 
         private List<WhoResult> ApplyClassFilter(List<WhoResult> items, string classSelection)
@@ -179,6 +201,11 @@ namespace WindmillHelix.Companion99.App
             if (classSelection == "+Tank")
             {
                 return items.Where(x => x.Class == "Warrior" || x.Class == "Paladin" || x.Class == "Shadow Knight").ToList();
+            }
+
+            if (classSelection == "+Priest")
+            {
+                return items.Where(x => x.Class == "Druid" || x.Class == "Shaman" || x.Class == "Cleric").ToList();
             }
 
             if (classSelection == "+Porter")

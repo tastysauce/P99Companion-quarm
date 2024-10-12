@@ -13,5 +13,7 @@ namespace WindmillHelix.Companion99.Services.Models
         public string CharacterName { get; set; }
 
         public string ZoneName { get; set; }
+
+        public string Account { get; set; }
     }
 }

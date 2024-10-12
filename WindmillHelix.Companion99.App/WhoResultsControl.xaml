@@ -45,6 +45,7 @@
                     <ComboBoxItem>Unknown/Anonymous</ComboBoxItem>
                     <ComboBoxItem>+Melee DPS</ComboBoxItem>
                     <ComboBoxItem>+Tank</ComboBoxItem>
+                    <ComboBoxItem>+Priest</ComboBoxItem>
                     <ComboBoxItem>+Porter</ComboBoxItem>
                 </ComboBox>
                 <Label Content="Guild:"/>
@@ -100,6 +101,8 @@
                     </GridView>
                 </ListView.View>
             </ListView>
+            <Label x:Name="GuildSummaryLabel"/>
+            <Label x:Name="ClassSummaryLabel"/>
         </StackPanel>
     </Grid>
 </UserControl>

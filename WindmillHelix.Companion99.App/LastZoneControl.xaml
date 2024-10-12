@@ -7,23 +7,36 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <ListView x:Name="ResultsListView">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding Text}">
-                        <TextBlock.Foreground>
-                            <SolidColorBrush Color="White"/>
-                        </TextBlock.Foreground>
-                    </TextBlock>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-            <ListView.View>
-                <GridView AllowsColumnReorder="true">
-                    <GridViewColumn Header="Server" Width="120" DisplayMemberBinding="{Binding Path=ServerName}"/>
-                    <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Path=CharacterName}"/>
-                    <GridViewColumn Header="Zone" Width="200" DisplayMemberBinding="{Binding Path=ZoneName}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <DockPanel HorizontalAlignment="Left" Margin="2" Grid.Row="0">
+                <Label Content="Search:"/>
+                <TextBox x:Name="SearchTextBox" Width="200px" />
+                <Button x:Name="ResetButton" Content="Reset" Click="ResetButton_Click" Width="40px" />
+            </DockPanel>
+            <ListView x:Name="ResultsListView" Grid.Row="1">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Text}">
+                            <TextBlock.Foreground>
+                                <SolidColorBrush Color="White"/>
+                            </TextBlock.Foreground>
+                        </TextBlock>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.View>
+                    <GridView AllowsColumnReorder="true">
+                        <GridViewColumn Header="Server" Width="120" DisplayMemberBinding="{Binding Path=ServerName}"/>
+                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Path=CharacterName}"/>
+                        <GridViewColumn Header="Zone" Width="200" DisplayMemberBinding="{Binding Path=ZoneName}"/>
+                        <GridViewColumn Header="Account" Width="200" DisplayMemberBinding="{Binding Path=Account}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
     </Grid>
 </UserControl>

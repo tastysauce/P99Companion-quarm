@@ -48,7 +48,13 @@
             </TabItem>
         </TabControl>
         <StatusBar Grid.Row="2">
-            <local:LastLocationControl HorizontalContentAlignment="Right"/>
+            <StatusBarItem>
+                <local:LastLocationControl HorizontalContentAlignment="Right"/>
+            </StatusBarItem>
+            <Separator Width="1"/>
+            <StatusBarItem>
+                <local:GroupLeaderControl HorizontalAlignment="Right"/>
+            </StatusBarItem>
         </StatusBar>
     </Grid>
 </Window>

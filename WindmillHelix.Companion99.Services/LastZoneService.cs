@@ -28,7 +28,7 @@ namespace WindmillHelix.Companion99.Services
             return _items;
         }
 
-        public void SetLastZone(string serverName, string characterName, string zoneName)
+        public void SetLastZone(string serverName, string characterName, string zoneName, string account)
         {
             var item = _items.SingleOrDefault(
                 x => x.ServerName.EqualsIngoreCase(serverName)
@@ -39,13 +39,15 @@ namespace WindmillHelix.Companion99.Services
                 item = new CharacterZone
                 {
                     ServerName = serverName,
-                    CharacterName = FixCharacterCasing(characterName)
+                    CharacterName = FixCharacterCasing(characterName),
+                    Account = account.ToLowerInvariant()
                 };
 
                 _items.Add(item);
             }
 
             item.ZoneName = zoneName;
+            item.Account = account;
 
             var serializer = new XmlSerializer(typeof(CharacterZone[]));
             using (var fs = new FileStream(_fileName, FileMode.Create))

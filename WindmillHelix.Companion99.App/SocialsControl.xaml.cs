@@ -122,7 +122,9 @@ namespace WindmillHelix.Companion99.App
             {
                 var social1 = (Social)button.Tag;
                 var social2 = (Social)_selectedButton.Tag;
+                string characterName = (string)CharacterComboBox.SelectedValue;
 
+                /*
                 var temp1 = new Social
                 {
                     Name = social1.Name,
@@ -141,9 +143,11 @@ namespace WindmillHelix.Companion99.App
                     PageNumber = social1.PageNumber,
                 };
 
-                string characterName = (string)CharacterComboBox.SelectedValue;
                 _socialService.SaveSocial(characterName, temp1);
                 _socialService.SaveSocial(characterName, temp2);
+                */
+
+                _socialService.SwapSocials(characterName, social1, social2);
 
                 _selectedButton.BorderBrush = Brushes.Black;
                 _selectedButton = null;

@@ -33,7 +33,6 @@ namespace WindmillHelix.Companion99.App
             }
         }
 
-
         private List<LastLocation> _locs = new List<LastLocation>();
 
         public LastLocationControl()

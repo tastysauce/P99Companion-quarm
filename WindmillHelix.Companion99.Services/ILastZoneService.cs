@@ -9,7 +9,7 @@ namespace WindmillHelix.Companion99.Services
 {
     public interface ILastZoneService
     {
-        void SetLastZone(string serverName, string characterName, string zoneName);
+        void SetLastZone(string serverName, string characterName, string zoneName, string account);
 
         IReadOnlyCollection<CharacterZone> GetLastZones();
     }

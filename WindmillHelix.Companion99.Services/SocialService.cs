@@ -110,5 +110,78 @@ namespace WindmillHelix.Companion99.Services
         {
             IniFile.WritePrivateProfileString("Socials", prefix + suffix, value, fullFilePath);
         }
+
+        public void SwapSocials(string characterIniFile, Social social1, Social social2)
+        {
+            var key1 = CalculateHotbuttonEntryKey(social1.PageNumber, social1.ItemNumber);
+            var key2 = CalculateHotbuttonEntryKey(social2.PageNumber, social2.ItemNumber);
+
+            var temp1 = new Social
+            {
+                Name = social1.Name,
+                Color = social1.Color,
+                Lines = social1.Lines,
+                ItemNumber = social2.ItemNumber,
+                PageNumber = social2.PageNumber,
+            };
+
+            var temp2 = new Social
+            {
+                Name = social2.Name,
+                Color = social2.Color,
+                Lines = social2.Lines,
+                ItemNumber = social1.ItemNumber,
+                PageNumber = social1.PageNumber,
+            };
+
+            SaveSocial(characterIniFile, temp1);
+            SaveSocial(characterIniFile, temp2);
+
+            //[HotButtons]
+            //Page1Button8 = F15
+            //Page10Button1 = E87
+            //Page10Button6 = E37
+
+            if (!characterIniFile.EndsWith(".ini"))
+            {
+                characterIniFile += ".ini";
+            }
+
+            var fullFilePath = Path.Combine(_configurationService.EverQuestFolder, characterIniFile);
+            var buttonsSectionName = "HotButtons";
+            for(int pageNumber = 1; pageNumber < 10; pageNumber++)
+            {
+                for(int buttonNumber = 1; buttonNumber < 10; buttonNumber++)
+                {
+                    var buttonKey = $"Page{pageNumber}Button{buttonNumber}";
+                    var valueBuilder = new StringBuilder(255);
+                    IniFile.GetPrivateProfileString(buttonsSectionName, buttonKey, string.Empty, valueBuilder, 255, fullFilePath);
+                    var currentValue = valueBuilder.ToString();
+                    string newValue = null;
+                    if(currentValue == key1)
+                    {
+                        newValue = key2;
+                    }
+                    else if(currentValue == key2)
+                    {
+                        newValue = key1;
+                    }
+
+                    if (newValue != null)
+                    {
+                        IniFile.WritePrivateProfileString(buttonsSectionName, buttonKey, newValue, fullFilePath);
+                    }
+                }
+            }
+
+            
+        }
+
+        private static string CalculateHotbuttonEntryKey(int pageNumber, int itemNumber)
+        {
+            var numeral = (pageNumber - 1) * 12 + itemNumber - 1;
+            var result = "E" + numeral.ToString();
+            return result;
+        }
     }
 }

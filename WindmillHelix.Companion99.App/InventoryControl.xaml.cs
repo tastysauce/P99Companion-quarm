@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,6 +28,8 @@ namespace WindmillHelix.Companion99.App
         private IReadOnlyCollection<InventoryItem> _items;
         private readonly IInventoryService _inventoryService;
         private readonly FileSystemWatcher _watcher;
+
+        private readonly Regex _multiIdsRegex = new Regex(@"^(\d+,)+\d+$");
 
         private IReadOnlyCollection<InventoryItem> _filteredItems;
 
@@ -104,6 +107,7 @@ namespace WindmillHelix.Companion99.App
         {
             var searchText = SearchTextBox.Text;
 
+            
             var filtered = _items;
 
             if(!string.IsNullOrWhiteSpace((string)CharacterComboBox.SelectedValue))
@@ -123,6 +127,11 @@ namespace WindmillHelix.Companion99.App
             if (int.TryParse(searchText, out itemId))
             {
                 filtered = filtered.Where(x => x.ItemId == itemId).ToList();
+            }
+            else if(_multiIdsRegex.IsMatch(searchText))
+            {
+                var ids = searchText.Split(',').Select(x => int.Parse(x)).ToList();
+                filtered = filtered.Where(x => ids.Contains(x.ItemId)).ToList();
             }
             else
             {

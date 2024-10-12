@@ -14,5 +14,7 @@ namespace WindmillHelix.Companion99.Services
         IReadOnlyCollection<Social> GetSocials(string characterIniFile);
 
         void SaveSocial(string characterIniFile, Social social);
+
+        void SwapSocials(string characterIniFile, Social social1, Social social2);
     }
 }
