@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WindmillHelix.Companion99.App.ViewModels;
 using WindmillHelix.Companion99.Common;
 using WindmillHelix.Companion99.Services;
 using WindmillHelix.Companion99.Services.Models;
@@ -28,7 +30,7 @@ namespace WindmillHelix.Companion99.App
 
         private bool _isResetting = false;
 
-        private IReadOnlyCollection<CharacterZone> _items;
+        private IReadOnlyCollection<CharacterZoneViewModel> _items;
 
         public LastZoneControl()
         {
@@ -41,6 +43,28 @@ namespace WindmillHelix.Companion99.App
 
             LoadZones();
             SearchTextBox.TextChanged += SearchTextBox_TextChanged;
+
+            var start = new ThreadStart(RunTimerThread);
+            var thread = new Thread(start);
+            thread.Start();
+        }
+
+        private void RunTimerThread()
+        {
+            Thread.CurrentThread.IsBackground = true;
+
+            while (true)
+            {
+                if(_items != null)
+                {
+                    foreach (var item in _items)
+                    {
+                        item.RaiseSkyCorpseTimerChange();
+                    }
+                }
+
+                Thread.Sleep(TimeSpan.FromMinutes(1));
+            }
         }
 
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -69,7 +93,7 @@ namespace WindmillHelix.Companion99.App
 
             Dispatcher.Invoke(() =>
             {
-                _items = items;
+                _items = items.Select(x => new CharacterZoneViewModel(x)).ToList();
             });
             
             ApplyFilters();
@@ -99,7 +123,11 @@ namespace WindmillHelix.Companion99.App
                 var filter = SearchTextBox.Text?.Trim();
                 if (!string.IsNullOrWhiteSpace(filter))
                 {
-                    items = items.Where(x => x.Account.ContainsIngoreCase(filter) || x.CharacterName.ContainsIngoreCase(filter) || x.ZoneName.ContainsIngoreCase(filter)).ToList();
+                    items = items.Where(
+                        x => x.Account.ContainsIngoreCase(filter) 
+                        || x.CharacterName.ContainsIngoreCase(filter) 
+                        || x.ZoneName.ContainsIngoreCase(filter)
+                        || (filter.EqualsIngoreCase("sky") && x.SkyCorpseTimer.HasValue)).ToList();
                 }
 
                 ResultsListView.ItemsSource = items;

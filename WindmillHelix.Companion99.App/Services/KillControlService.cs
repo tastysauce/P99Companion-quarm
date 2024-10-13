@@ -4,28 +4,37 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindmillHelix.Companion99.Common;
 using WindmillHelix.Companion99.Services;
 
 namespace WindmillHelix.Companion99.App.Services
 {
     public class KillControlService : IKillControlService, ILogListener
     {
-        public KillControlService(ILogReaderService logReaderService)
+        private readonly ILastZoneService _lastZoneService;
+
+        public KillControlService(ILogReaderService logReaderService, ILastZoneService lastZoneService)
         {
             logReaderService.AddListener(this);
+            _lastZoneService = lastZoneService;
         }
 
         public void HandleLogLine(string serverName, string characterName, DateTime eventDate, string line)
         {
-            if (line.StartsWith("You have been slain", StringComparison.OrdinalIgnoreCase) && false)
+            if (line.StartsWith("You have been slain", StringComparison.OrdinalIgnoreCase) || line.Equals("You died."))
             {
-                HandleDeath();
+                HandleDeath(serverName, characterName, eventDate);
             }
         }
 
-        private void HandleDeath()
+        private void HandleDeath(string serverName, string characterName, DateTime eventDate)
         {
-            // todo: raise a notification or something
+            var lastZones = _lastZoneService.GetLastZones();
+            var currentZone = lastZones.SingleOrDefault(x => x.ServerName.EqualsIngoreCase(serverName) && x.CharacterName.EqualsIngoreCase(characterName));
+            if(currentZone?.ZoneName == "Plane of Air")
+            {
+                _lastZoneService.SetSkyCorpseDate(serverName, characterName, eventDate.ToUniversalTime());
+            }
         }
     }
 }

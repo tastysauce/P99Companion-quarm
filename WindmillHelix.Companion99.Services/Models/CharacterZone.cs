@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace WindmillHelix.Companion99.Services.Models
 {
@@ -15,5 +16,7 @@ namespace WindmillHelix.Companion99.Services.Models
         public string ZoneName { get; set; }
 
         public string Account { get; set; }
+
+        public DateTime? SkyCorpseDate { get; set; }
     }
 }

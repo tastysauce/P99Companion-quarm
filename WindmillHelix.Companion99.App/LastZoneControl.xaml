@@ -34,6 +34,7 @@
                         <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Path=CharacterName}"/>
                         <GridViewColumn Header="Zone" Width="200" DisplayMemberBinding="{Binding Path=ZoneName}"/>
                         <GridViewColumn Header="Account" Width="200" DisplayMemberBinding="{Binding Path=Account}"/>
+                        <GridViewColumn Header="Sky Corpse Timer" Width="200" DisplayMemberBinding="{Binding SkyCorpseTimerString}"/>
                     </GridView>
                 </ListView.View>
             </ListView>

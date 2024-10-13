@@ -30,6 +30,29 @@ namespace WindmillHelix.Companion99.Services
 
         public void SetLastZone(string serverName, string characterName, string zoneName, string account)
         {
+            UpdateEntry(
+                serverName,
+                characterName,
+                a =>
+                {
+                    a.ZoneName = zoneName;
+                    a.Account = account.ToLowerInvariant();
+                });
+        }
+
+        public void SetSkyCorpseDate(string serverName, string characterName, DateTime dateOfDeath)
+        {
+            UpdateEntry(
+                serverName,
+                characterName,
+                a =>
+                {
+                    a.SkyCorpseDate = dateOfDeath;
+                });
+        }
+
+        private void UpdateEntry(string serverName, string characterName, Action<CharacterZone> action)
+        {
             var item = _items.SingleOrDefault(
                 x => x.ServerName.EqualsIngoreCase(serverName)
                 && x.CharacterName.EqualsIngoreCase(characterName));
@@ -39,15 +62,13 @@ namespace WindmillHelix.Companion99.Services
                 item = new CharacterZone
                 {
                     ServerName = serverName,
-                    CharacterName = FixCharacterCasing(characterName),
-                    Account = account.ToLowerInvariant()
+                    CharacterName = FixCharacterCasing(characterName)
                 };
 
                 _items.Add(item);
             }
 
-            item.ZoneName = zoneName;
-            item.Account = account;
+            action(item);
 
             var serializer = new XmlSerializer(typeof(CharacterZone[]));
             using (var fs = new FileStream(_fileName, FileMode.Create))
