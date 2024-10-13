@@ -16,5 +16,13 @@ namespace WindmillHelix.Companion99.Common
                 return ConfigurationManager.AppSettings[nameof(DataFolderLocationOverride)];
             }
         }
+
+        public static string DeathCommand
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings[nameof(DeathCommand)];
+            }
+        }
     }
 }

@@ -35,6 +35,14 @@ namespace WindmillHelix.Companion99.App.Services
             {
                 _lastZoneService.SetSkyCorpseDate(serverName, characterName, eventDate.ToUniversalTime());
             }
+
+            if(!string.IsNullOrWhiteSpace(AppConfig.DeathCommand))
+            {
+                var arguments = $"{serverName} {characterName} \"{currentZone?.ZoneName}\"";
+                var start = new ProcessStartInfo(AppConfig.DeathCommand, arguments);
+                start.WindowStyle = ProcessWindowStyle.Minimized;
+                Process.Start(start);                
+            }
         }
     }
 }
