@@ -28,6 +28,9 @@
                         </TextBlock>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                <ListView.InputBindings>
+                    <KeyBinding Key="Delete" Command="{Binding Path=DeleteCommand}"></KeyBinding>
+                </ListView.InputBindings>
                 <ListView.View>
                     <GridView AllowsColumnReorder="true">
                         <GridViewColumn Header="Server" Width="120" DisplayMemberBinding="{Binding Path=ServerName}"/>

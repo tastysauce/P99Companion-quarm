@@ -62,6 +62,28 @@ namespace WindmillHelix.Companion99.Services
                 });
         }
 
+        public void RemoveEntry(string serverName, string characterName)
+        {
+            var item = _items.SingleOrDefault(
+                x => x.ServerName.EqualsIngoreCase(serverName)
+                && x.CharacterName.EqualsIngoreCase(characterName));
+
+            if (item != null)
+            {
+                _items.Remove(item);
+                CommitItems();
+            }
+        }
+
+        private void CommitItems()
+        {
+            var serializer = new XmlSerializer(typeof(CharacterZone[]));
+            using (var fs = new FileStream(_fileName, FileMode.Create))
+            {
+                serializer.Serialize(fs, _items.ToArray());
+            }
+        }
+
         private void UpdateEntry(string serverName, string characterName, Action<CharacterZone> action)
         {
             var item = _items.SingleOrDefault(
@@ -81,11 +103,7 @@ namespace WindmillHelix.Companion99.Services
 
             action(item);
 
-            var serializer = new XmlSerializer(typeof(CharacterZone[]));
-            using (var fs = new FileStream(_fileName, FileMode.Create))
-            {
-                serializer.Serialize(fs, _items.ToArray());
-            }
+            CommitItems();
         }
 
         private string FixCharacterCasing(string characterName)

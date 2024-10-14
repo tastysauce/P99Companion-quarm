@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WindmillHelix.Companion99.App.Commands;
 using WindmillHelix.Companion99.App.ViewModels;
 using WindmillHelix.Companion99.Common;
 using WindmillHelix.Companion99.Services;
@@ -40,6 +41,8 @@ namespace WindmillHelix.Companion99.App
         {
             InitializeComponent();
 
+            DataContext = this;
+
             var logReaderService = DependencyInjector.Resolve<ILogReaderService>();
             _lastZoneService = DependencyInjector.Resolve<ILastZoneService>();
             _lastLoginService = DependencyInjector.Resolve<ILastLoginService>();
@@ -51,6 +54,22 @@ namespace WindmillHelix.Companion99.App
             var start = new ThreadStart(RunTimerThread);
             var thread = new Thread(start);
             thread.Start();
+
+            DeleteCommand = new GenericCommand(DeleteSelectedItem);
+        }
+
+        public ICommand DeleteCommand { get; private set; }
+
+        private void DeleteSelectedItem()
+        {
+            var selected = ResultsListView.SelectedItem as CharacterZoneViewModel;
+            if(selected == null)
+            {
+                return;
+            }
+
+            _lastZoneService.RemoveEntry(selected.ServerName, selected.CharacterName);
+            LoadZones();
         }
 
         private void RunTimerThread()

@@ -15,6 +15,8 @@ namespace WindmillHelix.Companion99.Services
 
         void SetSkyCorpseDate(string serverName, string characterName, DateTime dateOfDeath);
 
+        void RemoveEntry(string serverName, string characterName);
+
         IReadOnlyCollection<CharacterZone> GetLastZones();
     }
 }
