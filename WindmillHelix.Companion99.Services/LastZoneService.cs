@@ -51,6 +51,17 @@ namespace WindmillHelix.Companion99.Services
                 });
         }
 
+        public void SetBindPoint(string serverName, string characterName, string bindZone)
+        {
+            UpdateEntry(
+                serverName,
+                characterName,
+                a =>
+                {
+                    a.BindZone = bindZone;
+                });
+        }
+
         private void UpdateEntry(string serverName, string characterName, Action<CharacterZone> action)
         {
             var item = _items.SingleOrDefault(

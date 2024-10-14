@@ -32,6 +32,10 @@ namespace WindmillHelix.Companion99.App
 
         private IReadOnlyCollection<CharacterZoneViewModel> _items;
 
+        private const string ZonedPrefix = "You have entered ";
+        private const string CurrentBindPrefix = "You are currently bound in: ";
+        private const string NewBindLine = "You feel yourself bind to the area.";
+
         public LastZoneControl()
         {
             InitializeComponent();
@@ -74,16 +78,45 @@ namespace WindmillHelix.Companion99.App
 
         public void HandleLogLine(string serverName, string characterName, DateTime eventDate, string line)
         {
-            const string zonedPrefix = "You have entered ";
-            if (!line.StartsWith(zonedPrefix))
+            if (line.StartsWith(ZonedPrefix))
             {
-                return;
+                HandleZoneLine(serverName, characterName, eventDate, line);
             }
+            else if(line.StartsWith(CurrentBindPrefix))
+            {
+                HandleCurrentBindLine(serverName, characterName, eventDate, line);
+            }
+            else if(line == NewBindLine)
+            {
+                HandleNewBindLine(serverName, characterName, eventDate, line);
+            }
+        }
 
-            var zone = line.Substring(zonedPrefix.Length).TrimEnd('.');
+        private void HandleZoneLine(string serverName, string characterName, DateTime eventDate, string line)
+        {
+            var zone = line.Substring(ZonedPrefix.Length).TrimEnd('.');
             var account = _lastLoginService.GetLastLoginName();
             _lastZoneService.SetLastZone(serverName, characterName, zone, account);
             LoadZones();
+        }
+
+        private void HandleCurrentBindLine(string serverName, string characterName, DateTime eventDate, string line)
+        {
+            var zone = line.Substring(CurrentBindPrefix.Length).TrimEnd('.');
+            _lastZoneService.SetBindPoint(serverName, characterName, zone);
+            LoadZones();
+        }
+
+        private void HandleNewBindLine(string serverName, string characterName, DateTime eventDate, string line)
+        {
+            var current = _items.SingleOrDefault(x => x.ServerName.EqualsIngoreCase(serverName) 
+                && x.CharacterName.Equals(characterName));
+
+            if(!string.IsNullOrWhiteSpace(current?.ZoneName))
+            {
+                _lastZoneService.SetBindPoint(serverName, characterName, current.ZoneName);
+                LoadZones();
+            }
         }
 
         private void LoadZones()
@@ -127,6 +160,7 @@ namespace WindmillHelix.Companion99.App
                         x => x.Account.ContainsIngoreCase(filter) 
                         || x.CharacterName.ContainsIngoreCase(filter) 
                         || x.ZoneName.ContainsIngoreCase(filter)
+                        || x.BindZone.ContainsIngoreCase(filter)
                         || (filter.EqualsIngoreCase("sky") && x.SkyCorpseTimer.HasValue)).ToList();
                 }
 

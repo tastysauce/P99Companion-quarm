@@ -27,6 +27,8 @@ namespace WindmillHelix.Companion99.App.ViewModels
 
         public DateTime? SkyCorpseDate => _model.SkyCorpseDate;
 
+        public string BindZone => _model.BindZone;
+
         public TimeSpan? SkyCorpseTimer
         {
             get

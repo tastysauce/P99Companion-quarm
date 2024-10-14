@@ -32,9 +32,10 @@
                     <GridView AllowsColumnReorder="true">
                         <GridViewColumn Header="Server" Width="120" DisplayMemberBinding="{Binding Path=ServerName}"/>
                         <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Path=CharacterName}"/>
-                        <GridViewColumn Header="Zone" Width="200" DisplayMemberBinding="{Binding Path=ZoneName}"/>
-                        <GridViewColumn Header="Account" Width="200" DisplayMemberBinding="{Binding Path=Account}"/>
-                        <GridViewColumn Header="Sky Corpse Timer" Width="200" DisplayMemberBinding="{Binding SkyCorpseTimerString}"/>
+                        <GridViewColumn Header="Zone" Width="170" DisplayMemberBinding="{Binding Path=ZoneName}"/>
+                        <GridViewColumn Header="Account" Width="120" DisplayMemberBinding="{Binding Path=Account}"/>
+                        <GridViewColumn Header="Bind" Width="170" DisplayMemberBinding="{Binding Path=BindZone}"/>
+                        <GridViewColumn Header="Sky Corpse Timer" Width="120" DisplayMemberBinding="{Binding SkyCorpseTimerString}"/>
                     </GridView>
                 </ListView.View>
             </ListView>

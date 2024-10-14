@@ -18,5 +18,7 @@ namespace WindmillHelix.Companion99.Services.Models
         public string Account { get; set; }
 
         public DateTime? SkyCorpseDate { get; set; }
+
+        public string BindZone { get; set; }
     }
 }
