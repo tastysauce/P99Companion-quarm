@@ -18,7 +18,11 @@ namespace WindmillHelix.Companion99.Services
 
         public string GetLastLoginName()
         {
-            var fullFilePath = Path.Combine(_configurationService.EverQuestFolder, "eqlsPlayerData.ini");
+            var files = Directory.GetFiles(_configurationService.EverQuestFolder, "eqlsPlayerData*.ini")
+                .Select(x => new FileInfo(x));
+
+            var latestFile = files.OrderByDescending(x => x.LastWriteTime).First();
+            var fullFilePath = latestFile.FullName;
             var valueBuilder = new StringBuilder(255);
             IniFile.GetPrivateProfileString("PLAYER", "Username", string.Empty, valueBuilder, 255, fullFilePath);
             return valueBuilder.ToString();
