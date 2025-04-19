@@ -150,7 +150,7 @@ namespace WindmillHelix.Companion99.Services
 
         private FileInfo GetLatestLogFile()
         {
-            var logDirectory = Path.Combine(_configurationService.EverQuestFolder, "logs");
+            var logDirectory = _configurationService.EverQuestFolder;
             var fileNames = Directory.GetFiles(logDirectory, "eqlog_*.txt");
 
             var infos = new List<FileInfo>();
